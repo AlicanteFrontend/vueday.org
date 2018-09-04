@@ -1,0 +1,16 @@
+/* TEAM */
+Co-founder: Aarón García
+Site: https://aarongarciah.com/
+Twitter: @aarongarciah
+Location: Alicante, Spain
+
+Co-founder: Alex Jover
+Site: https://alexjoverm.github.io/
+Twitter: @alexjoverm
+Location: Alicante, Spain
+
+Co-founder: Álvaro Yuste
+Site: http://yuste.info/
+Twitter: @AlvYuste
+Location: Alicante, Spain
+
