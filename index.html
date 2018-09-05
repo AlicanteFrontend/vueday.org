@@ -1,25 +1,83 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="google-site-verification" content="m7YD0KU75TvGt-wYQMEbjMcYxFX3pdJ8Lx1ouSIO2_8" />
-    
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87037918-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vue Day 2019 – Alicante Frontend</title>
+  <meta name="google-site-verification" content="m7YD0KU75TvGt-wYQMEbjMcYxFX3pdJ8Lx1ouSIO2_8" />
 
-      gtag('config', 'UA-87037918-2');
-    </script>
+  <style>
+    html {
+      box-sizing: border-box;
+    }
 
-    <title>Vue Day 2019 – Alicante Frontend</title>
-    <meta name="description" content="Vue Day 2019 is coming">
-    <link rel="author" href="humans.txt" />
+    * {
+      box-sizing: inherit;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      white-space: nowrap;
+      clip: rect(0 0 0 0);
+      clip-path: inset(100%);
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .logo {
+      display: block;
+      max-width: 100%;
+      max-height: 90%;
+      margin-bottom: 2rem;
+    }
+
+    .soon {
+      font-size: 1.4em;
+      font-weight: 500;
+    }
+  </style>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87037918-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-87037918-2');
+  </script>
+
+  <meta name="description" content="Vue Day 2019 is coming">
+  <link rel="author" href="humans.txt" />
 </head>
+
 <body>
-    <h1>Vue Day 2019</h1>
+  <main class="content">
+    <h1 class="sr-only">Vue Day 2019</h1>
+    <a class="link" href="https://www.meetup.com/es-ES/Alicante-Frontend">
+      <img class="logo" src='data:image/svg+xml;utf8,<svg width="489" height="319" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="%232AAA7B" d="M.177 0L183.63 319 328.207 71.39l74.375 112.7L297.316 319h89.404l102.242-135L373.434 0h-79.678L183.63 189.672 74.997 0z"/><path fill="%23274A5F" d="M74.984 0h66.863l41.79 76.364L229.076 0h64.695L183.638 189.738zM328.214 71.358l74.466 112.724L297.343 319 267 267.75l79.69-105.718-37.485-58.249z"/></g></svg>'
+        title="Vue Day 2019" />
+    </a>
+    <p class="soon">Próximamente</p>
+  </main>
 </body>
+
 </html>
