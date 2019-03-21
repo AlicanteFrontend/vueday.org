@@ -42,14 +42,16 @@ details > summary {
   list-style: none;
 
   &:before {
-    content: '▶';
+    content: '';
     position: absolute;
-    top: 0.35em;
+    top: 0.45em;
     left: 0;
     display: inline-block;
-    margin-right: 0.5em;
-    font-size: 0.7em;
-    color: var(--grey);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 8px;
+    border-color: transparent transparent transparent var(--grey);
   }
 }
 
