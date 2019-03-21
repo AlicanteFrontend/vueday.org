@@ -40,6 +40,7 @@ details > summary {
   font-weight: 600;
   color: var(--black);
   list-style: none;
+  cursor: pointer;
 
   &:before {
     content: '';
