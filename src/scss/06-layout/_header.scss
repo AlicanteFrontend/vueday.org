@@ -110,7 +110,7 @@
 
 .nav__item {
   position: relative;
-  display: block;
+  display: inline-flex;
   align-items: center;
   width: auto;
   height: calc(100% + var(--border-w));
@@ -121,9 +121,14 @@
   white-space: nowrap;
 
   &:before {
-    content: '■';
+    content: '';
     position: relative;
+    top: 0.05em;
+    display: inline-block;
+    width: 0.6rem;
+    height: 0.6rem;
     margin-right: var(--spacing);
+    background-color: currentColor;
   }
 
   @include mq($from: desktop) {
