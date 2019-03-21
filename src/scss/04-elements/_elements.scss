@@ -1,0 +1,62 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: 2rem;
+  line-height: 1.5;
+  background-color: var(--white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--grey);
+}
+
+a:hover {
+  color: var(--green-dark);
+}
+
+h2 {
+  font-size: var(--font-size-xl);
+}
+
+details {
+  position: relative;
+  margin-bottom: 1em;
+  color: var(--grey);
+  padding-left: 1em;
+}
+
+details > summary {
+  position: relative;
+  display: inline-block;
+  padding-left: 1em;
+  margin-left: -1em;
+  margin-bottom: var(--spacing);
+  font-weight: 600;
+  color: var(--black);
+  list-style: none;
+
+  &:before {
+    content: '▶';
+    position: absolute;
+    top: 0.35em;
+    left: 0;
+    display: inline-block;
+    margin-right: 0.5em;
+    font-size: 0.7em;
+    color: var(--grey);
+  }
+}
+
+details[open] summary:before {
+  transform: rotate(90deg);
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}

@@ -1,0 +1,34 @@
+<section class="tickets bb pt-header-height pb-header-height" id="tickets">
+  <div class="container">
+    {% if version == 1 %}
+      <p>You'll be able to geet your tickets very soon <span aria-hidden="true">😄</span></p>
+      <p class="m-0">
+        <a
+          class="btn btn--large btn--white"
+          href="{{social.twitter.url}}"
+          target="_blank"
+          rel="noopener"
+        >
+          Follow {{social.twitter.handle}} on Twitter
+        </a>
+      </p>
+    {% endif %}
+
+    {% if version == 2 %}
+      <p>
+        <a
+          class="btn btn--large btn--white"
+          href="{{tickets.url}}"
+          target="_blank"
+          rel="noopener"
+        >
+          Get your ticket
+        </a>
+      </p>
+      <p class="m-0">
+        In the previous edition the tickets were sold out in less than an hour.
+        <span class="nowrap">Be quick!</span>
+      </p>
+    {% endif %}
+  </div>
+</section>

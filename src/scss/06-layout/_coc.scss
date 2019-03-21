@@ -1,0 +1,24 @@
+.coc {
+  margin-bottom: var(--spacing-xxxl);
+
+  h1 {
+    margin-top: 1em;
+  }
+
+  h2 {
+    margin-top: 1em;
+
+    span {
+      color: var(--grey);
+    }
+  }
+
+  ul {
+    list-style: disc;
+    padding-left: 2em;
+  }
+
+  a {
+    color: var(--black);
+  }
+}

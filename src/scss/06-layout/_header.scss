@@ -1,0 +1,229 @@
+.header {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--header-h);
+  background-color: #fff;
+  border-bottom: var(--border-w) solid var(--black);
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-top: var(--spacing);
+  padding-bottom: var(--spacing);
+  font-family: var(--font-family-special);
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+
+  img {
+    display: inline-block;
+    max-height: 3rem;
+    margin-right: var(--spacing);
+  }
+
+  &:hover {
+    color: var(--grey);
+  }
+
+  @include mq($from: tablet) {
+    font-size: 2.4rem;
+
+    img {
+      max-height: 3.8rem;
+    }
+  }
+}
+
+.logo__year {
+  font-size: 0.8em;
+}
+
+.nav-wrapper {
+  @include spacing-sides;
+  @include border(bottom);
+
+  position: absolute;
+  display: none;
+
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding-top: var(--spacing-m);
+  padding-bottom: var(--spacing-m);
+
+  background-color: var(--grey-light);
+
+  @include mq($from: desktop) {
+    position: static;
+    display: block;
+    width: auto;
+    height: 100%;
+    padding: 0;
+    border-bottom: none;
+    background-color: transparent;
+    box-shadow: none;
+  }
+}
+
+.nav-wrapper--with-tickets {
+  padding-bottom: var(--spacing-xl);
+
+  @include mq($from: desktop) {
+    padding: 0;
+  }
+}
+
+.nav-wrapper.is-open {
+  display: block;
+
+  @include mq($from: desktop) {
+    position: initial;
+    display: flex;
+    width: auto;
+  }
+}
+
+.nav {
+  display: inline-flex;
+  flex-direction: column;
+  width: auto;
+
+  @include mq($from: desktop) {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+}
+
+.nav__item {
+  position: relative;
+  display: block;
+  align-items: center;
+  width: auto;
+  height: calc(100% + var(--border-w));
+  margin-bottom: var(--spacing);
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+
+  &:before {
+    content: '■';
+    position: relative;
+    margin-right: var(--spacing);
+  }
+
+  @include mq($from: desktop) {
+    display: inline-flex;
+    padding-right: var(--spacing-m);
+    padding-left: var(--spacing-m);
+    margin-bottom: 0;
+
+    height: calc(100% + var(--border-w));
+
+    &:before {
+      content: none;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: var(--border-w);
+      background-color: var(--grey);
+      opacity: 0;
+      transform: scaleX(0);
+    }
+
+    &:hover {
+      color: var(--green-dark);
+
+      &:after {
+        opacity: 1;
+        background-color: var(--green-dark);
+        transform: none;
+      }
+    }
+  }
+
+  @include mq($from: wide) {
+    padding-right: var(--spacing-l);
+  }
+}
+
+.nav__item-tickets {
+  @include shadow(var(--black));
+
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  top: calc(var(--border-w) * 2);
+  width: auto;
+  padding-right: var(--spacing-m);
+  padding-left: var(--spacing-m);
+  margin-left: var(--spacing-m);
+  font-weight: 700;
+  color: var(--white);
+  text-decoration: none;
+  background-color: var(--green-dark);
+  transform: rotate(var(--rotation-s));
+
+  > span {
+    display: inline-flex;
+    align-items: center;
+    pointer-events: none;
+  }
+
+  &:hover {
+    @include shadow(var(--black));
+
+    color: var(--white);
+    background-color: var(--green);
+  }
+
+  &:active {
+    transform: translateY(2px) rotate(var(--rotation-s));
+  }
+}
+
+.nav__item-icon {
+  display: inline-block;
+  margin-right: var(--spacing);
+  font-size: 1.5em;
+}
+
+.btn-nav {
+  @include shadow(var(--black), var(--border-w-s));
+
+  align-self: center;
+  padding: 0.3em;
+  border: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--black);
+  background-color: var(--grey-light);
+  appearance: none;
+  transform: rotate(var(--rotation-m)) translateX(-7%);
+  user-select: none;
+
+  @include mq($from: desktop) {
+    display: none;
+  }
+}

@@ -1,0 +1,50 @@
+<section class="header">
+  <div class="header__inner container">
+    <a class="logo" href="/">
+      <img src="static/vue-day-logo.svg" alt="Vue Day Logo" />
+      Vue Day&nbsp;<span class="logo__year" aria-label="2019">’19</span>
+    </a>
+    <button
+      class="btn-nav js-toggle-nav"
+      type="button"
+      aria-label="Open menu"
+      aria-haspopup="true"
+      aria-expanded="false"
+    >
+      Menu
+    </button>
+    <div class="nav-wrapper {% if version == 2 %}nav-wrapper--with-tickets{% endif %} js-nav">
+      <nav class="nav">
+        {% if version == 2 %}
+          <a class="nav__item js-nav-item" href="#speakers">Speakers</a>
+        {% endif %}
+
+        {% if version == 2 %}
+          <a class="nav__item js-nav-item" href="#schedule">Schedule</a>
+        {% endif %}
+
+        {% if version == 1 %}
+          <a class="nav__item js-nav-item" href="#tickets">Tickets</a>
+        {% endif %}
+
+        <a class="nav__item js-nav-item" href="#venue">Venue</a>
+        <a class="nav__item js-nav-item" href="#faq">FAQ</a>
+
+        {% if version == 2 %}
+          <a class="nav__item js-nav-item" href="#sponsors">Sponsors</a>
+        {% endif %}
+
+        {% if version == 2 %}
+          <a
+            class="nav__item-tickets js-nav-item"
+            href="{{tickets.url}}"
+            target="_blank"
+            rel="noopener"
+          >
+            <span><span class="nav__item-icon" aria-hidden="true">🖖</span>Get your ticket</span>
+          </a>
+        {% endif %}
+      </nav>
+    </div>
+  </div>
+</section>

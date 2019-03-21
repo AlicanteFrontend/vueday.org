@@ -1,0 +1,11 @@
+.harbor {
+  img {
+    width: 100%;
+
+    @supports (object-fit: cover) {
+      max-height: 65vh;
+      object-fit: cover;
+      object-position: 50% 30%;
+    }
+  }
+}

@@ -1,0 +1,3 @@
+@mixin shadow($color: var(--grey), $size: var(--border-w)) {
+  box-shadow: $size $size $color;
+}

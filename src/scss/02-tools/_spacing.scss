@@ -1,0 +1,4 @@
+@mixin spacing-sides {
+  padding-right: var(--spacing-sides);
+  padding-left: var(--spacing-sides);
+}

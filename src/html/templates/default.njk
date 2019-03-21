@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ lang }}">
+  <head>
+    <!-- Metas -->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>
+      {% block documentTitle %}Vue Day 2019{% endblock %}
+    </title>
+    <meta
+      name="description"
+      content="The 2nd edition of Vue Day is here: a whole day to learn about your favorite framework from local, national and international speakers. See you on Friday May 31 at Panoramis Cinema, next to the beautiful Port of Alicante. Brought to you by Alicante Frontend."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="author" content="Aarón García Hervás, @aarongarciah, https://aarongarciah.com" />
+
+    <!-- Favicons, webmanifest -->
+    <link rel="apple-touch-icon" sizes="180x180" href="static/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-16x16.png" />
+    <link rel="manifest" href="static/site.webmanifest" />
+    <link rel="mask-icon" href="static/safari-pinned-tab.svg" color="#26a070" />
+    <link rel="shortcut icon" href="static/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-config" content="static/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- TODO: OG meta tags -->
+
+    <!-- preconnect, preload, etc. -->
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis:500&text=Vue Day '19"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="scss/main.scss" />
+  </head>
+
+  <body class="{% block bodyClass %}{% endblock %}">
+    {% include "html/partials/_header.njk" %}
+
+    <main class="main">
+      {% block content %}{% endblock %}
+    </main>
+
+    {% include "html/partials/_footer.njk" %}
+
+    {% include "html/partials/_credits.njk" %}
+
+    <!-- Scripts -->
+    <script>
+      var doc = document;
+
+      doc.documentElement.classList.remove('no-js');
+
+      /** Mobile nav */
+      var nav = doc.querySelector('.js-nav');
+      var navBtn = doc.querySelector('.js-toggle-nav');
+      var navToggleLabelClosed = 'Open menu';
+      var navToggleLabelOpened = 'Close menu';
+
+      function openNav() {
+        nav.classList.add('is-open');
+        nav.querySelector('a').focus();
+        navBtn.setAttribute('aria-expanded', 'true');
+        navBtn.setAttribute('aria-label', navToggleLabelOpened);
+      }
+
+      function closeNav() {
+        nav.classList.remove('is-open');
+        navBtn.setAttribute('aria-expanded', 'false');
+        navBtn.setAttribute('aria-label', navToggleLabelClosed);
+      }
+
+      navBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        if (nav.classList.contains('is-open')) {
+          closeNav();
+        } else {
+          openNav();
+        }
+      });
+
+      nav.addEventListener('click', function(e) {
+        console.log(e);
+        if (e.target && e.target.classList.contains('js-nav-item')) {
+          closeNav();
+        }
+      });
+    </script>
+    <script src="https://www.googletagmanager.com/gtag/js?id=UA-87037918-2" async></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'UA-87037918-2');
+    </script>
+  </body>
+</html>

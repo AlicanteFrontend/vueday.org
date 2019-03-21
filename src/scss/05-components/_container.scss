@@ -1,0 +1,12 @@
+.container {
+  @include spacing-sides;
+
+  width: 100%;
+  max-width: var(--container-w);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container--narrow {
+  max-width: var(--container-w-narrow);
+}

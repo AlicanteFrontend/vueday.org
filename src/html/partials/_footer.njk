@@ -1,0 +1,65 @@
+<footer class="footer pt-header-height pb-header-height">
+  <div class="container">
+    <p>
+      <a class="footer__logo" href="/">
+        <img src="static/vue-day-logo.svg" alt="Vue Day Logo"/>
+        Vue Day&nbsp;<span class="logo__year" aria-label="2019">’19    </span>
+      </a>
+    </p>
+
+    <div class="footer__cols">
+      <div class="footer__info">
+        <p>
+          May 31, 2019. Panoramis Cinema, Alicante.
+        </p>
+        <p>
+          <a class="footer__email" href="mailto:{{social.email}}" target="_blank" rel="noopener">{{social.email}}</a>
+        </p>
+        <ul class="footer__social">
+          <li>
+            <a
+              href="{{social.twitter.url}}"
+              target="_blank"
+              rel="noopener"
+              aria-label="Open Vue Day Twitter account in a new tab"
+            >
+              {% include "html/icons/twitter.svg" %}
+            </a>
+          </li>
+          <li>
+            <a
+              href="{{social.youtube.url}}"
+              target="_blank"
+              rel="noopener"
+              aria-label="Open YouTube channel in a new tab"
+            >
+              {% include "html/icons/youtube.svg" %}
+            </a>
+          </li>
+          <li>
+            <a
+              href="{{social.linkedin.url}}"
+              target="_blank"
+              rel="noopener"
+              aria-label="Open Vue Day LinkedIn group in a new tab"
+            >
+              {% include "html/icons/linkedin.svg" %}
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="footer__links">
+        <li>
+          <a href="code-of-conduct.njk" target="_blank" rel="noopener">Code of conduct</a>
+        </li>
+        <li>
+          <a href="{{alicanteFrontend.meetupUrl}}" target="_blank" rel="noopener">Join Alicante Frontend Meetup</a>
+        </li>
+        <li>
+          <a href="{{alicanteFrontend.slackUrl}}" target="_blank" rel="noopener">Join Alicante Frontend Slack</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,38 @@
+<section class="venue bb" id="venue">
+  <div class="venue__info container pt-header-height  pb-header-height">
+    <div>
+      <h2 class="venue__title">
+        {% include "html/icons/map-marker.svg" %}
+        <a class="venue__link" href="{{gmaps.url}}" target="_blank" rel="noopener">Panoramis Cinema</a>
+      </h2>
+      <p>
+        Centro Comercial Panoramis<br />
+        Muelle de Poniente, 6<br />
+        03003 Alicante<br />
+        Spain
+      </p>
+      <p>
+        <a class="venue__link-gmaps" href="{{gmaps.url}}" target="_blank" rel="noopener">
+          <small>Open in Google Maps {% include "html/icons/external-link.svg" %}</smal>
+        </a>
+      </p>
+    </div>
+  </div>
+  <div class="venue__map">
+    <a href="{{gmaps.url}}" target="_blank" rel="noopener">
+      <picture>
+        <img
+          sizes="(max-width: 1500px) 100vw, 1500px"
+          srcset="
+          static/map-panoramis-cinema_w_320.jpg 320w,
+          static/map-panoramis-cinema_w_636.jpg 636w,
+          static/map-panoramis-cinema_w_878.jpg 878w,
+          static/map-panoramis-cinema_w_1090.jpg 1090w,
+          static/map-panoramis-cinema_w_1500.jpg 1500w"
+          src="static/map-panoramis-cinema_w_1500.jpg"
+          alt="Map showing the location of Panoramis Cinema" title="Open Google Maps in a new tab"
+        />
+      </picture>
+    </a>
+  </div>
+</section>

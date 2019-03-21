@@ -1,0 +1,33 @@
+.link-highlight {
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  color: var(--grey);
+
+  &:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    right: -0.05em;
+    bottom: 0;
+    left: -0.05em;
+    height: 20%;
+    background-color: rgba($green-dark, 0.5);
+    transform: rotate(var(--rotation-m));
+    transform-origin: 50% 100%;
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: var(--grey);
+
+    &:before {
+      height: 100%;
+      transform: scaleY(1) rotate(var(--rotation-m));
+    }
+  }
+
+  &:active {
+    transform: translateY(0.1rem) rotate(var(--rotation-m));
+  }
+}

@@ -1,0 +1,64 @@
+.btn {
+  @include shadow(var(--grey));
+
+  display: inline-block;
+  max-width: 100%;
+  padding: var(--spacing) var(--spacing-l);
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--green);
+  transform: rotate(var(--rotation-s));
+
+  &:hover {
+    @include shadow(var(--black));
+
+    color: var(--white);
+    background-color: var(--grey);
+  }
+
+  &:active {
+    transform: translateY(0.2rem) rotate(var(--rotation-s));
+  }
+}
+
+.btn--large {
+  font-size: 2.2rem;
+  padding: var(--spacing-m) var(--spacing-xxl);
+
+  @include mq($from: tablet) {
+    font-size: 3rem;
+  }
+}
+
+.btn--block {
+  display: block;
+  width: 100%;
+}
+
+.btn--block\@until-phablet {
+  display: block;
+  width: 100%;
+
+  @include mq($from: phablet) {
+    display: inline-block;
+    width: auto;
+  }
+}
+
+.btn--white {
+  @include shadow(var(--grey));
+
+  color: var(--black);
+  background-color: var(--white);
+
+  &:hover {
+    @include shadow(var(--black));
+
+    color: var(--white);
+    background-color: var(--grey);
+  }
+}

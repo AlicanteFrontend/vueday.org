@@ -1,0 +1,53 @@
+:root {
+  --green: #{$green};
+  --green-dark: #{$green-dark};
+  --grey: #{$grey};
+  --grey-light: #{$grey-light};
+  --white: #{$white};
+  --black: #{$black};
+  --yellow: #{$yellow};
+  --border-color: #{$border-color};
+
+  --spacing: #{$spacing-unit};
+  --spacing-s: var(--spacing);
+  --spacing-m: calc(var(--spacing) * 2);
+  --spacing-l: calc(var(--spacing) * 3);
+  --spacing-xl: calc(var(--spacing) * 4);
+  --spacing-xxl: calc(var(--spacing) * 5);
+  --spacing-xxxl: calc(var(--spacing) * 8);
+  --spacing-sides: var(--spacing-l);
+
+  --font-family-special: 'Dosis';
+  --font-family: 'Source Sans Pro';
+
+  --font-size-s: 1rem;
+  --font-size-m: 1.6rem;
+  --font-size-l: 2rem;
+  --font-size-xl: 2.4rem;
+
+  --header-h: 5.6rem;
+  --container-w: 128rem;
+  --container-w-narrow: 80rem;
+
+  --border-w-s: #{$spacing-unit / 4};
+  --border-w: #{$spacing-unit / 2};
+  --border-w-large: #{$spacing-unit};
+
+  --rotation-s: -2deg;
+  --rotation-m: -3deg;
+
+  --easing: 0.175s ease-in-out;
+
+  --shadow: var(--border-w) var(--border-w) var(--black);
+
+  @include mq($from: phablet) {
+    --font-size-l: 2.4rem;
+    --font-size-xl: 2.8rem;
+  }
+
+  @include mq($from: tablet) {
+    --header-h: 6.4rem;
+    --font-size-l: 2.8rem;
+    --font-size-xl: 3.2rem;
+  }
+}

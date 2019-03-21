@@ -1,0 +1,3 @@
+@mixin border($direction: bottom, $color: var(--black), $size: var(--border-w)) {
+  border-#{$direction}: $size solid $color;
+}

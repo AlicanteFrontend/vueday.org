@@ -1,0 +1,13 @@
+{% extends "html/templates/default.njk" %}
+
+{% set t = en %}
+
+{% block documentTitle %}Vue Day 2019 | May 31 in Alicante | Brought to you by Alicante Frontend{% endblock %}
+{% block bodyClass %}ojete{% endblock %}
+{% block content %}
+  {% include "html/partials/_hero.njk" %}
+  {% include "html/partials/_tickets.njk" %}
+  {% include "html/partials/_harbor.njk" %}
+  {% include "html/partials/_venue.njk" %}
+  {% include "html/partials/_faq.njk" %}
+{% endblock %}

@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "lang": "en",
+  "tickets": {
+    "url": "https://www.eventbrite.es/",
+    "priceEarly": "30€",
+    "priceRegular": "45€"
+  },
+  "social": {
+    "email": "info@vueday.org",
+    "twitter": {
+      "url": "https://twitter.com/VueDay",
+      "handle": "@VueDay"
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/c/AlicanteFrontend"
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/groups/8736842/"
+    }
+  },
+  "alicanteFrontend": {
+    "url": "https://www.alicantefrontend.es/",
+    "meetupUrl": "https://www.meetup.com/es-ES/Alicante-Frontend",
+    "slackUrl": "http://alicantefrontend.herokuapp.com",
+    "githubUrl": "https://github.com/AlicanteFrontend/"
+  },
+  "gmaps": {
+    "url": "https://goo.gl/maps/FEsEi1EWodF2"
+  }
+}
