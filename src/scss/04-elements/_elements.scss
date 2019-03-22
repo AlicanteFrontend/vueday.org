@@ -63,3 +63,8 @@ details[open] summary:before {
 details > summary::-webkit-details-marker {
   display: none;
 }
+
+hr {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
