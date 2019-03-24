@@ -10,7 +10,7 @@
     "email": "info@vueday.org",
     "twitter": {
       "url": "https://twitter.com/VueDay",
-      "handle": "@VueDay"
+      "handle": "VueDay"
     },
     "youtube": {
       "url": "https://www.youtube.com/c/AlicanteFrontend"
@@ -27,5 +27,88 @@
   },
   "gmaps": {
     "url": "https://goo.gl/maps/FEsEi1EWodF2"
-  }
+  },
+  "speakers": [
+    {
+      "id": "maegarner",
+      "name": "Mae Garner",
+      "photo": "",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
+      "links": {
+        "twitter": "https://twitter.com/maegarner",
+        "github": "https://github.com/maegarner",
+        "website": "https://maegarner.com"
+      }
+    },
+    {
+      "id": "bryan-williamson",
+      "name": "Bryan Williamson",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
+      "links": {
+        "twitter": "https://twitter.com/bryanwilliamson",
+        "github": "https://github.com/bryanwilliamson",
+        "website": "https://bryanwilliamson.com"
+      }
+    },
+    {
+      "id": "kate-meyer",
+      "name": "Kate Meyer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
+      "links": {
+        "twitter": "https://twitter.com/katemeyer",
+        "github": "https://github.com/katemeyer",
+        "website": "https://katemeyer.com"
+      }
+    },
+    {
+      "id": "alan-schmidt",
+      "name": "Alan Schmidt",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
+      "links": {
+        "twitter": "https://twitter.com/alanschmidt",
+        "github": "https://github.com/alanschmidt",
+        "website": "https://alanschmidt.com"
+      }
+    },
+    {
+      "id": "clinton–schwartz",
+      "name": "Clinton Schwartz",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
+      "links": {
+        "twitter": "https://twitter.com/clintonschwartz",
+        "github": "https://github.com/clintonschwartz",
+        "website": "https://clintonschwartz.com"
+      }
+    },
+    {
+      "id": "lowell-rose",
+      "name": "Lowell Rose",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
+      "links": {
+        "twitter": "https://twitter.com/lowellrose",
+        "github": "https://github.com/lowellrose",
+        "website": "https://lowellrose.com"
+      }
+    },
+    {
+      "id": "blake-harvey",
+      "name": "Blake Harvey",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
+      "links": {
+        "twitter": "https://twitter.com/blakeharvey",
+        "github": "https://github.com/blakeharvey",
+        "website": "https://blakeharvey.com"
+      }
+    },
+    {
+      "id": "norma-hanson",
+      "name": "Norma Hanson",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
+      "links": {
+        "twitter": "https://twitter.com/normahanson",
+        "github": "https://github.com/normahanson",
+        "website": "https://normahanson.com"
+      }
+    }
+  ]
 }
