@@ -1,24 +1,33 @@
 <article class="speaker" id="{{speaker.id}}">
-  <img class="speaker__photo" src="{{speaker.photo}}" alt="" aria-hidden="true">
+  <img class="speaker__photo" src="{{speaker.photo}}" alt="{{speaker.name}} profile picture" aria-hidden="true">
   <div class="speaker__inner">
     <h3 class="speaker__name">{{speaker.name}}</h3>
+    {% if speaker.description %}
     <p class="speaker__desc">{{speaker.description}}</p>
-    <p class="speaker__social">
+    {% endif %}
+
+    <ul class="speaker__social">
       {% if speaker.links.twitter %}
-        <a href="{{speaker.links.twitter}}" target="_blank" rel="noopener">
-          {{ macros.icon_inline('icon-twitter') }}
-        </a>
+        <li>
+          <a href="{{speaker.links.twitter}}" target="_blank" rel="noopener" title="Open {{speaker.name}} Twitter profile">
+            {{ macros.icon_inline('icon-twitter') }}
+          </a>
+        </li>
       {% endif %}
       {% if speaker.links.github %}
-        <a href="{{speaker.links.github}}" target="_blank" rel="noopener">
-          {{ macros.icon_inline('icon-github') }}
-        </a>
+        <li>
+          <a href="{{speaker.links.github}}" target="_blank" rel="noopener" title="Open {{speaker.name}} GitHub profile">
+            {{ macros.icon_inline('icon-github') }}
+          </a>
+        </li>
       {% endif %}
       {% if speaker.links.website %}
-        <a href="{{speaker.links.website}}" target="_blank" rel="noopener">
-          {{ macros.icon_inline('icon-link') }}
-        </a>
+        <li>
+          <a href="{{speaker.links.website}}" target="_blank" rel="noopener" title="Open {{speaker.name}} website">
+            {{ macros.icon_inline('icon-link') }}
+          </a>
+        </li>
       {% endif %}
-    </p>
+    </ul>
   </div>
 </article>

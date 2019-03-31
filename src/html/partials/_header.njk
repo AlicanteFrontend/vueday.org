@@ -15,16 +15,14 @@
     </button>
     <div class="nav-wrapper {% if version == 2 %}nav-wrapper--with-tickets{% endif %} js-nav">
       <nav class="nav">
-        {% if version == 2 %}
-          <a class="nav__item js-nav-item" href="#speakers">Speakers</a>
+        {% if version == 1 %}
+          <a class="nav__item js-nav-item" href="#tickets">Tickets</a>
         {% endif %}
+
+        <a class="nav__item js-nav-item" href="#speakers">Speakers</a>
 
         {% if version == 2 %}
           <a class="nav__item js-nav-item" href="#schedule">Schedule</a>
-        {% endif %}
-
-        {% if version == 1 %}
-          <a class="nav__item js-nav-item" href="#tickets">Tickets</a>
         {% endif %}
 
         <a class="nav__item js-nav-item" href="#venue">Venue</a>

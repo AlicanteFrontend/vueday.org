@@ -30,91 +30,91 @@
   },
   "speakers": [
     {
-      "id": "maegarner",
-      "name": "Mae Garner",
-      "photo": "static/speakers/speaker-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
+      "id": "eduardo-san-martin",
+      "name": "Eduardo San Martín",
+      "photo": "static/speakers/eduardo-san-martin-morote.jpg",
+      "description": "Vue Core Team member.",
       "links": {
-        "twitter": "https://twitter.com/maegarner",
-        "github": "https://github.com/maegarner",
-        "website": "https://maegarner.com"
+        "twitter": "https://twitter.com/posva",
+        "github": "https://github.com/posva",
+        "website": "https://posva.net/"
       }
     },
     {
-      "id": "bryan-williamson",
-      "name": "Bryan Williamson",
-      "photo": "static/speakers/speaker-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
+      "id": "sebastien-chopin",
+      "name": "Sebastien Chopin",
+      "photo": "static/speakers/sebastien-chopin.jpg",
+      "description": "Co-creator of Nuxt. Community partner of Vue.",
       "links": {
-        "twitter": "https://twitter.com/bryanwilliamson",
-        "github": "https://github.com/bryanwilliamson",
-        "website": "https://bryanwilliamson.com"
+        "twitter": "https://twitter.com/atinux",
+        "github": "https://github.com/Atinux",
+        "website": "https://atinux.com/"
       }
     },
     {
-      "id": "kate-meyer",
-      "name": "Kate Meyer",
-      "photo": "static/speakers/speaker-3.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
+      "id": "alexandre-chopin",
+      "name": "Alexandre Chopin",
+      "photo": "static/speakers/alexandre-chopin.jpg",
+      "description": "Co-creator of Nuxt. Community partner of Vue.",
       "links": {
-        "twitter": "https://twitter.com/katemeyer",
-        "github": "https://github.com/katemeyer",
-        "website": "https://katemeyer.com"
+        "twitter": "https://twitter.com/IamNuxt",
+        "github": "https://github.com/alexchopin",
+        "website": "https://alexchopin.com/"
       }
     },
     {
-      "id": "alan-schmidt",
-      "name": "Alan Schmidt",
-      "photo": "static/speakers/speaker-4.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
+      "id": "debbie-obrien",
+      "name": "Debbie O'Brien",
+      "photo": "static/speakers/debbie-obrien.jpg",
+      "description": "Frontend Tech Lead at Agency Patterson. Mentor at OpenClassrooms.",
       "links": {
-        "twitter": "https://twitter.com/alanschmidt",
-        "github": "https://github.com/alanschmidt",
-        "website": "https://alanschmidt.com"
+        "twitter": "https://twitter.com/debs_obrien",
+        "github": "https://github.com/debs-obrien",
+        "website": ""
       }
     },
     {
-      "id": "clinton–schwartz",
-      "name": "Clinton Schwartz",
-      "photo": "static/speakers/speaker-5.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
+      "id": "ruben-valseca",
+      "name": "Rubén Valseca",
+      "photo": "static/speakers/ruben-valseca.jpg",
+      "description": "VueJSMadrid co-organizer. Style Sage developer. FrontFest co-founder.",
       "links": {
-        "twitter": "https://twitter.com/clintonschwartz",
-        "github": "https://github.com/clintonschwartz",
-        "website": "https://clintonschwartz.com"
+        "twitter": "https://twitter.com/rubnvp",
+        "github": "https://github.com/rubnvp",
+        "website": ""
       }
     },
     {
-      "id": "lowell-rose",
-      "name": "Lowell Rose",
-      "photo": "static/speakers/speaker-6.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
+      "id": "marina-aisa",
+      "name": "Marina Aisa",
+      "photo": "static/speakers/marina-aisa.jpg",
+      "description": "UX Engineer at Holaluz. Design and code.",
       "links": {
-        "twitter": "https://twitter.com/lowellrose",
-        "github": "https://github.com/lowellrose",
-        "website": "https://lowellrose.com"
+        "twitter": "https://twitter.com/MarinaAisa",
+        "github": "https://github.com/marinaaisa",
+        "website": "https://marinaaisa.com/"
       }
     },
     {
-      "id": "blake-harvey",
-      "name": "Blake Harvey",
-      "photo": "static/speakers/speaker-7.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
+      "id": "quique-fernandez-guerra",
+      "name": "Quique Fdez Guerra",
+      "photo": "static/speakers/quique-fernandez-guerra.jpg",
+      "description": "Developer at Plain Concepts. Founder of HelpDev.",
       "links": {
-        "twitter": "https://twitter.com/blakeharvey",
-        "github": "https://github.com/blakeharvey",
-        "website": "https://blakeharvey.com"
+        "twitter": "https://twitter.com/ckgrafico",
+        "github": "https://github.com/ckgraficon",
+        "website": "http://blog.ckgrafico.com/"
       }
     },
     {
-      "id": "norma-hanson",
-      "name": "Norma Hanson",
-      "photo": "static/speakers/speaker-8.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
+      "id": "alex-jover",
+      "name": "Alex Jover",
+      "photo": "static/speakers/alex-jover.jpg",
+      "description": "Vue team partner. VueDose author. Google Developer Expert. Instructor Eggheadio and Alligator. Co-organizes Alicante Frontend.",
       "links": {
-        "twitter": "https://twitter.com/normahanson",
-        "github": "https://github.com/normahanson",
-        "website": "https://normahanson.com"
+        "twitter": "https://twitter.com/alexjoverm",
+        "github": "https://github.com/alexjoverm",
+        "website": "https://alexjover.com/"
       }
     }
   ]

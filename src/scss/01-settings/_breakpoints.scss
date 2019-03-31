@@ -1,4 +1,5 @@
 $bkp-mobile: 320px;
+$bkp-mobile-large: 500px;
 $bkp-phablet: 600px;
 $bkp-tablet: 740px;
 $bkp-desktop: 980px;
@@ -7,6 +8,7 @@ $bkp-ultra-wide: 1920px;
 
 $breakpoints: (
   mobile: $bkp-mobile,
+  mobile-large: $bkp-mobile-large,
   tablet: $bkp-tablet,
   phablet: $bkp-phablet,
   desktop: $bkp-desktop,

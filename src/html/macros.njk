@@ -1,5 +1,8 @@
-{% macro icon_inline(icon_id) %}
-<svg>
+{% macro icon_inline(icon_id, attrs='aria-hidden="true"', title='') %}
+<svg {{attrs}}>
+  {% if title %}
+    <title>{{title}}</title>
+  {% endif %}
   <use xlink:href="#{{icon_id}}"></use>
 </svg>
 {% endmacro %}
