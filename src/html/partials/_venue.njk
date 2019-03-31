@@ -2,7 +2,7 @@
   <div class="venue__info container pt-header-height  pb-header-height">
     <div>
       <h2 class="venue__title">
-        {% include "html/icons/map-marker.svg" %}
+        {{ macros.icon_inline('icon-map-marker') }}
         <a class="venue__link" href="{{gmaps.url}}" target="_blank" rel="noopener">Panoramis Cinema</a>
       </h2>
       <p>
@@ -13,7 +13,7 @@
       </p>
       <p>
         <a class="venue__link-gmaps" href="{{gmaps.url}}" target="_blank" rel="noopener">
-          <small>Open in Google Maps {% include "html/icons/external-link.svg" %}</smal>
+          <small>Open in Google Maps {{ macros.icon_inline('icon-link-external') }}</smal>
         </a>
       </p>
     </div>

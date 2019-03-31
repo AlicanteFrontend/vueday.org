@@ -1,0 +1,32 @@
+.speakers__list {
+  display: grid;
+  grid-gap: var(--spacing-xl);
+
+  @include mq($from: phablet) {
+    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  }
+}
+
+.speaker {
+  border: var(--border-w) solid var(--black);
+}
+
+.speaker__inner {
+  padding: 0 var(--spacing-m) var(--spacing-m) var(--spacing-m);
+}
+
+.speaker__photo {
+  display: block;
+  width: 100%;
+  margin-bottom: var(--spacing-m);
+}
+
+.speaker__name {
+  font-size: var(--font-size-l);
+}
+
+.speaker__social {
+  svg {
+    width: 2rem;
+  }
+}

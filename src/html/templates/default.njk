@@ -1,3 +1,5 @@
+{% import "html/macros.njk" as macros %}
+
 <!DOCTYPE html>
 <html class="no-js" lang="{{ lang }}">
   <head>
@@ -78,6 +80,7 @@
   </head>
 
   <body class="{% block bodyClass %}{% endblock %}">
+    {% include "html/partials/_svg-sprite.njk" %}
     {% include "html/partials/_header.njk" %}
 
     <main class="main">
