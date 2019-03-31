@@ -32,7 +32,7 @@
     {
       "id": "eduardo-san-martin",
       "name": "Eduardo San Martín",
-      "photo": "static/speakers/eduardo-san-martin-morote.jpg",
+      "picture": "static/speakers/eduardo-san-martin-morote.jpg",
       "description": "Vue Core Team member.",
       "links": {
         "twitter": "https://twitter.com/posva",
@@ -43,7 +43,7 @@
     {
       "id": "sebastien-chopin",
       "name": "Sebastien Chopin",
-      "photo": "static/speakers/sebastien-chopin.jpg",
+      "picture": "static/speakers/sebastien-chopin.jpg",
       "description": "Co-creator of Nuxt. Community partner of Vue.",
       "links": {
         "twitter": "https://twitter.com/atinux",
@@ -54,7 +54,7 @@
     {
       "id": "alexandre-chopin",
       "name": "Alexandre Chopin",
-      "photo": "static/speakers/alexandre-chopin.jpg",
+      "picture": "static/speakers/alexandre-chopin.jpg",
       "description": "Co-creator of Nuxt. Community partner of Vue.",
       "links": {
         "twitter": "https://twitter.com/IamNuxt",
@@ -65,7 +65,7 @@
     {
       "id": "debbie-obrien",
       "name": "Debbie O'Brien",
-      "photo": "static/speakers/debbie-obrien.jpg",
+      "picture": "static/speakers/debbie-obrien.jpg",
       "description": "Frontend Tech Lead at Agency Patterson. Mentor at OpenClassrooms.",
       "links": {
         "twitter": "https://twitter.com/debs_obrien",
@@ -76,7 +76,7 @@
     {
       "id": "ruben-valseca",
       "name": "Rubén Valseca",
-      "photo": "static/speakers/ruben-valseca.jpg",
+      "picture": "static/speakers/ruben-valseca.jpg",
       "description": "VueJSMadrid co-organizer. Style Sage developer. FrontFest co-founder.",
       "links": {
         "twitter": "https://twitter.com/rubnvp",
@@ -87,7 +87,7 @@
     {
       "id": "marina-aisa",
       "name": "Marina Aisa",
-      "photo": "static/speakers/marina-aisa.jpg",
+      "picture": "static/speakers/marina-aisa.jpg",
       "description": "UX Engineer at Holaluz. Design and code.",
       "links": {
         "twitter": "https://twitter.com/MarinaAisa",
@@ -98,7 +98,7 @@
     {
       "id": "quique-fernandez-guerra",
       "name": "Quique Fdez Guerra",
-      "photo": "static/speakers/quique-fernandez-guerra.jpg",
+      "picture": "static/speakers/quique-fernandez-guerra.jpg",
       "description": "Developer at Plain Concepts. Founder of HelpDev.",
       "links": {
         "twitter": "https://twitter.com/ckgrafico",
@@ -109,7 +109,7 @@
     {
       "id": "alex-jover",
       "name": "Alex Jover",
-      "photo": "static/speakers/alex-jover.jpg",
+      "picture": "static/speakers/alex-jover.jpg",
       "description": "Vue team partner. VueDose author. Google Developer Expert. Instructor Eggheadio and Alligator. Co-organizes Alicante Frontend.",
       "links": {
         "twitter": "https://twitter.com/alexjoverm",
