@@ -13,26 +13,19 @@
     >
       Menu
     </button>
-    <div class="nav-wrapper {% if version == 2 %}nav-wrapper--with-tickets{% endif %} js-nav">
+    <div class="nav-wrapper {% if version == 'tickets' %}nav-wrapper--with-tickets{% endif %} js-nav">
       <nav class="nav">
-        {% if version == 1 %}
+        {% if version == 'no-tickets' %}
           <a class="nav__item js-nav-item" href="#tickets">Tickets</a>
         {% endif %}
 
         <a class="nav__item js-nav-item" href="#speakers">Speakers</a>
-
-        {% if version == 2 %}
-          <a class="nav__item js-nav-item" href="#schedule">Schedule</a>
-        {% endif %}
-
+        {# <a class="nav__item js-nav-item" href="#schedule">Schedule</a> #}
         <a class="nav__item js-nav-item" href="#venue">Venue</a>
         <a class="nav__item js-nav-item" href="#faq">FAQ</a>
+        <a class="nav__item js-nav-item" href="#sponsors">Sponsors</a>
 
-        {% if version == 2 %}
-          <a class="nav__item js-nav-item" href="#sponsors">Sponsors</a>
-        {% endif %}
-
-        {% if version == 2 %}
+        {% if version == 'tickets' %}
           <a
             class="nav__item-tickets js-nav-item"
             href="{{tickets.url}}"
