@@ -117,5 +117,66 @@
         "website": "https://alexjover.com/"
       }
     }
-  ]
+  ],
+  "sponsors": {
+    "platinum": {
+      "name": "Platinum",
+      "list": [
+        {
+          "id": "nitsnets",
+          "name": "Nitsnets",
+          "url": "https://www.nitsnets.com/",
+          "picture": "static/sponsors/nitsnets.png"
+        },
+        {
+          "id": "everis",
+          "name": "Everis",
+          "url": "https://www.everis.com/global/en",
+          "picture": "static/sponsors/everis.png"
+        },
+        {
+          "id": "mindden",
+          "name": "Mindden",
+          "url": "https://www.mindden.com/",
+          "picture": "static/sponsors/mindden.png"
+        }
+      ]
+    },
+    "gold": {
+      "name": "Gold",
+      "list": []
+    },
+    "silver": {
+      "name": "Silver",
+      "list": []
+    },
+    "bronze": {
+      "name": "Bronze",
+      "list": [
+        {
+          "id": "coosto",
+          "name": "Coosto",
+          "url": "https://www.coosto.com/en",
+          "picture": "static/sponsors/coosto.png"
+        },
+        {
+          "id": "vuejobs",
+          "name": "VueJobs",
+          "url": "https://vuejobs.com/",
+          "picture": "static/sponsors/vuejobs.png"
+        }
+      ]
+    },
+    "collaborators": {
+      "name": "Collaborators",
+      "list": [
+        {
+          "id": "eventbrite",
+          "name": "Eventbrite",
+          "url": "https://www.eventbrite.com/",
+          "picture": "static/sponsors/eventbrite.png"
+        }
+      ]
+    }
+  }
 }

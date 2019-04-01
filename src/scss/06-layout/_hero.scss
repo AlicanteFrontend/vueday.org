@@ -16,7 +16,7 @@
     background-color: rgba($black, 0);
   }
 
-  @include mq($from: phablet) {
+  @include mq(phablet) {
     min-height: 90vh;
     min-height: calc(90vh - var(--header-h));
     padding: var(--spacing-xxxl) var(--spacing-xxl);
@@ -35,7 +35,7 @@
   width: 100%;
   margin-top: 3em;
   margin-bottom: 0;
-  font-size: var(--font-size-m);
+  font-size: var(--font-size-s);
   text-align: center;
 
   a {
@@ -53,7 +53,7 @@
   width: 72rem;
   max-width: 100%;
   margin: 0 auto;
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-xl);
   color: var(--grey);
   background-color: var(--white);
 
@@ -82,7 +82,7 @@
     box-shadow: 0 0 0 1px rgba($black, 0.3);
     transform-origin: 50% 50%;
 
-    @include mq($from: phablet) {
+    @include mq(phablet) {
       content: '';
     }
   }
@@ -97,11 +97,11 @@
     transform: rotate(2deg) translate(-54%, -47%);
   }
 
-  @include mq($from: phablet) {
+  @include mq(phablet) {
     padding: var(--spacing-xxl);
   }
 
-  @include mq($from: tablet) {
+  @include mq(tablet) {
     padding-top: var(--spacing-xxxl);
     padding-bottom: var(--spacing-xxxl);
   }

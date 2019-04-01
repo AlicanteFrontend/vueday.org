@@ -2,18 +2,18 @@
   display: grid;
   grid-gap: var(--spacing-xl);
 
-  @include mq($from: mobile-large) {
+  @include mq(mobile-large) {
     grid-template-columns: 1fr 1fr;
   }
 
-  @include mq($from: tablet) {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  @include mq(tablet) {
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   }
 }
 
 .speakers__title {
   font-family: var(--font-family-special);
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-xxl);
   font-weight: 600;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .speaker__name {
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-xl);
   margin-bottom: var(--spacing-m);
 }
 
