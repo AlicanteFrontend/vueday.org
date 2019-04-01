@@ -1,3 +1,17 @@
-<section id="sponsors" class="bb">
-  Sponsors
+<section id="sponsors" class="sponsors pt-header-height pb-header-height bb">
+  <div class="container">
+    <h2 class="subtitle">Sponsors</h2>
+    <div class="sponsors__text">
+      <p>
+        Vue Day is happening thanks to this awesome companies. Thank you all!
+      </p>
+      <p>
+        Wanna be on this list and be visible to hundreds of amazing developers? <a class="link-highlight nowrap" href="mailto:{{social.email}}" target="_blank" rel="noopener">Let's talk <span role="img" aria-label="love" title="mail envelope">💌</span></a>
+      </p>
+    </div>
+
+    {% for sponsors_group_id, sponsors_group in sponsors %}
+      {% include "html/partials/_sponsors_group.njk" %}
+    {% endfor %}
+  </div>
 </section>

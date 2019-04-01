@@ -15,7 +15,7 @@
 }
 
 .footer__cols {
-  @include mq($from: tablet) {
+  @include mq(tablet) {
     display: flex;
   }
 }
@@ -23,7 +23,7 @@
 .footer__info {
   margin-bottom: var(--spacing-xl);
 
-  @include mq($from: tablet) {
+  @include mq(tablet) {
     padding-right: var(--spacing-xxxl);
     margin-bottom: 0;
   }
@@ -54,8 +54,8 @@
 
   svg {
     display: inline-block;
-    width: 24px;
-    height: 24px;
+    width: 2.4rem;
+    height: 2.4rem;
   }
 }
 
@@ -69,7 +69,7 @@
   }
 
   a:before {
-    content: '■';
+    content: '•';
     position: relative;
     margin-right: var(--spacing);
   }

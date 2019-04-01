@@ -38,7 +38,7 @@
     color: var(--grey);
   }
 
-  @include mq($from: tablet) {
+  @include mq(tablet) {
     font-size: 2.4rem;
 
     img {
@@ -66,7 +66,7 @@
 
   background-color: var(--grey-light);
 
-  @include mq($from: desktop) {
+  @include mq(desktop) {
     position: static;
     display: block;
     width: auto;
@@ -81,7 +81,7 @@
 .nav-wrapper--with-tickets {
   padding-bottom: var(--spacing-xl);
 
-  @include mq($from: desktop) {
+  @include mq(desktop) {
     padding: 0;
   }
 }
@@ -89,7 +89,7 @@
 .nav-wrapper.is-open {
   display: block;
 
-  @include mq($from: desktop) {
+  @include mq(desktop) {
     position: initial;
     display: flex;
     width: auto;
@@ -101,7 +101,7 @@
   flex-direction: column;
   width: auto;
 
-  @include mq($from: desktop) {
+  @include mq(desktop) {
     display: flex;
     flex-direction: row;
     height: 100%;
@@ -131,7 +131,7 @@
     background-color: currentColor;
   }
 
-  @include mq($from: desktop) {
+  @include mq(desktop) {
     display: inline-flex;
     padding-right: var(--spacing-m);
     padding-left: var(--spacing-m);
@@ -166,7 +166,7 @@
     }
   }
 
-  @include mq($from: wide) {
+  @include mq(wide) {
     padding-right: var(--spacing-l);
   }
 }
@@ -228,7 +228,7 @@
   transform: rotate(var(--rotation-m)) translateX(-7%);
   user-select: none;
 
-  @include mq($from: desktop) {
+  @include mq(desktop) {
     display: none;
   }
 }

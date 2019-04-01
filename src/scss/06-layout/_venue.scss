@@ -1,7 +1,7 @@
 .venue {
   background-color: var(--black);
 
-  @include mq($from: tablet) {
+  @include mq(tablet) {
     display: flex;
     flex-wrap: wrap;
   }
@@ -26,7 +26,7 @@
   font-size: 0.9em;
   color: var(--white);
 
-  @include mq($from: phablet) {
+  @include mq(phablet) {
     padding-left: var(--spacing-xxxl);
     font-size: 1em;
   }
