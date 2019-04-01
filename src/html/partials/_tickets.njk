@@ -1,6 +1,6 @@
 <section class="tickets bb pt-header-height pb-header-height" id="tickets">
   <div class="container">
-    {% if version == 1 %}
+    {% if version == 'no-tickets' %}
       <p>You'll be able to get your tickets very soon <span aria-hidden="true">😄</span></p>
       <p class="m-0">
         <a
@@ -9,12 +9,12 @@
           target="_blank"
           rel="noopener"
         >
-          Follow {{social.twitter.handle}} on Twitter
+          Follow @{{social.twitter.handle}} on Twitter
         </a>
       </p>
     {% endif %}
 
-    {% if version == 2 %}
+    {% if version == 'tickets' %}
       <p>
         <a
           class="btn btn--large btn--white"

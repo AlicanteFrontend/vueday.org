@@ -1,3 +1,5 @@
+{% import "html/macros.njk" as macros %}
+
 <!DOCTYPE html>
 <html class="no-js" lang="{{ lang }}">
   <head>
@@ -69,7 +71,7 @@
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Dosis:500&text=Vue Day '19"
+      href="https://fonts.googleapis.com/css?family=Dosis:500,600&text=Vue Day '19"
       rel="stylesheet"
     />
 
@@ -78,6 +80,7 @@
   </head>
 
   <body class="{% block bodyClass %}{% endblock %}">
+    {% include "html/partials/_svg-sprite.njk" %}
     {% include "html/partials/_header.njk" %}
 
     <main class="main">
