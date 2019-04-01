@@ -9,8 +9,10 @@
 
 .pt-header-height {
   padding-top: var(--header-h);
+  padding-top: calc(var(--header-h) + var(--spacing));
 }
 
 .pb-header-height {
   padding-bottom: var(--header-h);
+  padding-bottom: calc(var(--header-h) + var(--spacing));
 }

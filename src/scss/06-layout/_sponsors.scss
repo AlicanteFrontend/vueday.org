@@ -15,7 +15,9 @@
 }
 
 .sponsors-group {
-  margin-bottom: var(--spacing-xxxl);
+  &:not(:last-child) {
+    margin-bottom: var(--spacing-xxxl);
+  }
 
   @include mq($from: tablet) {
     display: flex;
