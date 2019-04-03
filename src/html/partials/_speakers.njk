@@ -3,7 +3,7 @@
     <h2 class="subtitle">Our Awesome Speakers</h2>
 
     <div class="speakers__list">
-      {% for speaker in speakers %}
+      {% for speaker_id, speaker in speakers %}
         {% include "html/partials/_speaker.njk" %}
       {% endfor %}
     </div>

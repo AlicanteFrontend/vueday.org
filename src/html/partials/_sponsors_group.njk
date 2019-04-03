@@ -1,8 +1,8 @@
-{% if sponsors_group.list.length %}
+{% if sponsors_group.list | length %}
   <div class="sponsors-group sponsors-group--{{sponsors_group_id}}">
     <h3 class="sponsors-group__title">{{sponsors_group.name}}</h3>
     <ul class="sponsors-group__list sponsors-group__list--{{sponsors_group_id}}">
-      {% for sponsor in sponsors_group.list %}
+      {% for sponsor_id, sponsor in sponsors_group.list %}
         <li>
           {% include "html/partials/_sponsor.njk" %}
         </li>

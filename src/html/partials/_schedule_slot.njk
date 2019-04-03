@@ -1,0 +1,22 @@
+<li class="slot" id="{{slot_id}}">
+
+  <span class="slot_dot"></span>
+
+  <time>{{slot.time}}</time>
+
+  <div>
+    <h4 class="slot__name">{{slot.name}}</h4>
+
+    {% if slot.speaker %}
+      {% if speakers[slot.speaker] %}
+        <p>{{speakers[slot.speaker].name}}</p>
+      {% endif %}
+    {% endif %}
+
+    {% if slot.description %}
+      <div class="slot__description">
+        <p>{{slot.description}}</p>
+      </div>
+    {% endif %}
+  </div>
+</li>
