@@ -1,15 +1,15 @@
 <li class="slot" id="{{slot_id}}">
-
-  <span class="slot_dot"></span>
-
-  <time>{{slot.time}}</time>
+  <time class="slot__time">
+    <span class="slot__dot"></span>
+    <strong>{{slot.time}}</strong>
+  </time>
 
   <div>
     <h4 class="slot__name">{{slot.name}}</h4>
 
     {% if slot.speaker %}
       {% if speakers[slot.speaker] %}
-        <p>{{speakers[slot.speaker].name}}</p>
+        <p class="slot__speaker">{{speakers[slot.speaker].name}}</p>
       {% endif %}
     {% endif %}
 

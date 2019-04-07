@@ -23,8 +23,8 @@
 
   --font-size-s: 1.6rem;
   --font-size-m: 1.8rem;
-  --font-size-xl: 2rem;
-  --font-size-xxl: 2.4rem;
+  --font-size-lg: 2rem;
+  --font-size-xl: 2.4rem;
 
   --header-h: 5.6rem;
   --container-w: 140rem;
@@ -42,13 +42,13 @@
   --shadow: var(--border-w) var(--border-w) var(--black);
 
   @include mq(phablet) {
-    --font-size-xl: 2.4rem;
-    --font-size-xxl: 2.8rem;
+    --font-size-lg: 2.4rem;
+    --font-size-xl: 2.8rem;
   }
 
   @include mq(tablet) {
     --header-h: 6.4rem;
-    --font-size-xl: 2.8rem;
-    --font-size-xxl: 3.2rem;
+    --font-size-lg: 2.8rem;
+    --font-size-xl: 3.2rem;
   }
 }

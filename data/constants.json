@@ -167,32 +167,32 @@
   },
   "schedule": {
     "schedule-checkin": {
-      "time": "8:00",
+      "time": "08:00",
       "name": "Check in",
       "speaker": "",
       "description": ""
     },
     "schedule-intro": {
-      "time": "9:00",
+      "time": "09:00",
       "name": "Intro :)",
       "speaker": "",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus. Id, quidem."
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus."
     },
     "talk-1": {
-      "time": "9:15",
+      "time": "09:15",
       "name": "How to draw an owl",
       "speaker": "eduardo-san-martin",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus. Id, quidem."
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus."
     },
     "talk-2": {
       "time": "10:00",
       "name": "How to draw an owl",
       "speaker": "eduardo-san-martin",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus. Id, quidem."
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus."
     },
     "schedule-breakfast": {
       "time": "10:45",
-      "name": "Breakfast",
+      "name": "Breakfast ☕️",
       "speaker": "",
       "description": ""
     },
@@ -200,23 +200,23 @@
       "time": "11:30",
       "name": "How to draw an owl",
       "speaker": "eduardo-san-martin",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus. Id, quidem."
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus."
     },
     "talk-4": {
       "time": "12:15",
       "name": "How to draw an owl",
       "speaker": "eduardo-san-martin",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus. Id, quidem."
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus."
     },
     "talk-5": {
       "time": "13:00",
       "name": "How to draw an owl",
       "speaker": "eduardo-san-martin",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus. Id, quidem."
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus."
     },
     "schedule-lunch": {
       "time": "13:45",
-      "name": "Lunch",
+      "name": "Lunch 🥘",
       "speaker": "",
       "description": ""
     },
@@ -224,19 +224,19 @@
       "time": "15:30",
       "name": "How to draw an owl",
       "speaker": "eduardo-san-martin",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus. Id, quidem."
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus."
     },
     "talk-7": {
       "time": "16:15",
       "name": "How to draw an owl",
       "speaker": "eduardo-san-martin",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus. Id, quidem."
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus."
     },
     "talk-8": {
       "time": "17:00",
       "name": "How to draw an owl",
       "speaker": "eduardo-san-martin",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus. Id, quidem."
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus."
     },
     "schedule-ama": {
       "time": "17:45",
