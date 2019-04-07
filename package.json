@@ -4,7 +4,7 @@
   "description": "Vue Day website, a one-day conference in Alicante. Brought to you by @AlicanteFrontend",
   "main": "src/index.njk",
   "scripts": {
-    "dev": "NODE_ENV=development parcel src/index.njk --no-cache",
+    "dev": "NODE_ENV=development parcel src/index.njk",
     "prebuild": "rimraf dist/*",
     "build": "NODE_ENV=production npm run validate && parcel build src/index.njk --no-cache",
     "serve": "npm run build && npx serve dist",
