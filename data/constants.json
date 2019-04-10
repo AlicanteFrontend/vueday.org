@@ -1,8 +1,8 @@
 {
-  "version": "no-tickets",
+  "version": "tickets",
   "lang": "en",
   "tickets": {
-    "url": "https://www.eventbrite.es/",
+    "url": "https://www.eventbrite.com/e/vue-day-2019-tickets-59162874751",
     "priceEarly": "30€",
     "priceRegular": "45€"
   },
@@ -137,7 +137,14 @@
     },
     "silver": {
       "name": "Silver",
-      "list": {}
+      "list": [
+        {
+          "id": "spotahome",
+          "name": "Spotahome",
+          "url": "https://www.spotahome.com/",
+          "picture": "static/sponsors/spotahome.png"
+        }
+      ]
     },
     "bronze": {
       "name": "Bronze",
