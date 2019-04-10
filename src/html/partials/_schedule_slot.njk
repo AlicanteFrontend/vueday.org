@@ -15,7 +15,10 @@
 
     {% if slot.description %}
       <div class="slot__description">
-        <p>{{slot.description}}</p>
+        {% for desc in slot.description %}
+          <p>{{desc}}</p>
+        {% endfor %}
+
       </div>
     {% endif %}
   </div>

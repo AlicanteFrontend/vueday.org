@@ -170,49 +170,55 @@
       "time": "08:00",
       "name": "Check in",
       "speaker": "",
-      "description": ""
+      "description": [""]
     },
     "schedule-intro": {
       "time": "08:45",
       "name": "Intro :)",
       "speaker": "",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus."
+      "description": [""]
     },
     "talk-1": {
       "time": "09:00",
-      "name": "How to draw an owl",
-      "speaker": "eduardo-san-martin",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus."
+      "name": "TBD",
+      "speaker": "marina-aisa",
+      "description": ["TBD"]
     },
     "talk-2": {
       "time": "09:50",
-      "name": "How to draw an owl",
-      "speaker": "eduardo-san-martin",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus."
+      "name": "Nuxt.js 2K19",
+      "speaker": "alexandre-chopin",
+      "description": [
+        "Do you want to learn more about Nuxt.js history? Alexandre, creator of Nuxt.js will explain how a simple project became one of the most active open source project in the Vue ecosystem. How the framework and community grew over time."
+      ]
     },
     "schedule-breakfast": {
       "time": "10:40",
       "name": "Breakfast ☕️",
       "speaker": "",
-      "description": ""
+      "description": [""]
     },
     "talk-3": {
       "time": "11:10",
-      "name": "How to draw an owl",
-      "speaker": "eduardo-san-martin",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus."
-    },
-    "talk-4": {
-      "time": "12:00",
-      "name": "How to draw an owl",
-      "speaker": "eduardo-san-martin",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus."
+      "name": "Deep Dive into Nuxt.js internals",
+      "speaker": "sebastien-chopin",
+      "description": [
+        "Ever wondered how Nuxt.js works? Sebastien, creator of Nuxt.js will explain how the framework works internally. Giving you the knowledge to enjoy the full power of Nuxt and its module ecosystem."
+      ]
     },
     "talk-5": {
       "time": "12:50",
-      "name": "How to draw an owl",
-      "speaker": "eduardo-san-martin",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus."
+      "name": "TBD",
+      "speaker": "alex-jover",
+      "description": ["TODO"]
+    },
+    "talk-4": {
+      "time": "12:00",
+      "name": "Leave your legacy code behind and go Nuxt",
+      "speaker": "debbie-obrien",
+      "description": [
+        "Want to migrate to a Single Page Application but still need great SEO? Nuxt has you covered. But Nuxt is so much more than just Server Side Rendering. Join me on this talk to discover why you should be considering Nuxt as your framework of choice. How to call your data from an api with asyncData and why you should consider using static sites. What? Static sites? Yes. I will also go through how to setup a great boilerplate project so you can easily get started and migrate all your sites or build new ones. Are you Nuxt?"
+      ]
     },
     "schedule-lunch": {
       "time": "13:40",
@@ -222,39 +228,49 @@
     },
     "talk-6": {
       "time": "15:00",
-      "name": "How to draw an owl",
+      "name": "You can inject dependencies in your components, let's do it!",
       "speaker": "eduardo-san-martin",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus."
+      "description": [
+        "In many programming languages it is quite usual to inject our dependencies, in fact it is related to one of the solid principles (Dependency Inversion). And in the Frontend what?? In some Angular-like frameworks it is resolved, but when we do not use any framework or we work with some more like Vue, React or Preact we have to import our dependencies on different ways. In this talk I want to help you to make the process easier, come and learn everything dependency injection can do for you."
+      ]
     },
     "talk-7": {
       "time": "15:50",
-      "name": "How to draw an owl",
-      "speaker": "eduardo-san-martin",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus."
+      "name": "How does Vue.js reactivity work? Implementing a reactive system from scratch",
+      "speaker": "ruben-valseca",
+      "description": [
+        "Vue.js has become quite popular lately - thanks to its fast learning curve, single file components, template system, progressive framework, etc ...",
+        "One of the main strengths is the reactive system that allows us to scale our application by manipulating the data without having to worry about when to update. But ... how does it work? How does Vue realize that a data has changed in the most remote part of an array and update \"automagically\" the values that depend on it? Does this system have limits?",
+        "In this talk we will see what the \"magic\" is behind Vue.js through a practical example that demonstrates the reactivity at the base of our development."
+      ]
     },
     "jamacuco-break": {
       "time": "16:40",
       "name": "Break",
       "speaker": "",
-      "description": ""
+      "description": []
     },
     "talk-8": {
       "time": "16:55",
-      "name": "How to draw an owl",
+      "name": "The present and future of Vue Router",
       "speaker": "eduardo-san-martin",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptates, nam, architecto sequi dignissimos consequuntur expedita officiis temporibus, at beatae omnis provident dolor animi consequatur impedit veniam possimus."
+      "description": [
+        "When we develop single-page applications, we have to use a router. Every single framework has its own router, React even has multiple ones you can choose from. And even though each framework is different and every router takes a different approach, they all share the same principles.",
+        "What is behind a simple and easy-to-use API? Is it really that difficult to create your own SPA router? What are the different approaches and their advantages, caveats?",
+        "Let's talk about the existing different approaches we see in SPA routers, today's Vue Router implementation and what is coming for the next versions of Vue Router"
+      ]
     },
     "schedule-ama": {
       "time": "17:45",
       "name": "Surprise!",
       "speaker": "",
-      "description": "You won't be disappointed."
+      "description": ["You won't be disappointed."]
     },
     "schedule-end": {
       "time": "18:00",
       "name": "The End",
       "speaker": "",
-      "description": "You're free to enjoy the city of Alicante :)"
+      "description": ["You're free to enjoy the city of Alicante :)"]
     }
   }
 }
