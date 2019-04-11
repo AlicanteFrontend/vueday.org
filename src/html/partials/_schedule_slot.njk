@@ -5,18 +5,22 @@
   </time>
 
   <div>
-    <h4 class="slot__name">{{slot.name}}</h4>
+    <h4 class="slot__name">{{slot.name | safe}}</h4>
 
     {% if slot.speaker %}
       {% if speakers[slot.speaker] %}
-        <p class="slot__speaker">{{speakers[slot.speaker].name}}</p>
+        <p class="slot__speaker">
+          <a href="#{{slot.speaker}}">{{speakers[slot.speaker].name}}</a>
+        </p>
+      {% else %}
+        <p class="slot__speaker">{{slot.speaker}}</p>
       {% endif %}
     {% endif %}
 
     {% if slot.description %}
       <div class="slot__description">
         {% for desc in slot.description %}
-          <p>{{desc}}</p>
+          <p>{{desc | safe}}</p>
         {% endfor %}
       </div>
     {% endif %}

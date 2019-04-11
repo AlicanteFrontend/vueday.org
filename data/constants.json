@@ -187,9 +187,9 @@
     },
     "talk-1": {
       "time": "09:00",
-      "name": "TBD",
+      "name": "<em>Pending</em>",
       "speaker": "marina-aisa",
-      "description": ["TBD"]
+      "description": []
     },
     "talk-2": {
       "time": "09:50",
@@ -214,13 +214,13 @@
       ]
     },
     "talk-5": {
-      "time": "12:50",
-      "name": "TBD",
+      "time": "12:00",
+      "name": "<em>Pending</em>",
       "speaker": "alex-jover",
-      "description": ["TODO"]
+      "description": []
     },
     "talk-4": {
-      "time": "12:00",
+      "time": "12:50",
       "name": "Leave your legacy code behind and go Nuxt",
       "speaker": "debbie-obrien",
       "description": [
@@ -236,7 +236,7 @@
     "talk-6": {
       "time": "15:00",
       "name": "You can inject dependencies in your components, let's do it!",
-      "speaker": "eduardo-san-martin",
+      "speaker": "quique-fernandez-guerra",
       "description": [
         "In many programming languages it is quite usual to inject our dependencies, in fact it is related to one of the solid principles (Dependency Inversion). And in the Frontend what?? In some Angular-like frameworks it is resolved, but when we do not use any framework or we work with some more like Vue, React or Preact we have to import our dependencies on different ways. In this talk I want to help you to make the process easier, come and learn everything dependency injection can do for you."
       ]
@@ -246,7 +246,7 @@
       "name": "How does Vue.js reactivity work? Implementing a reactive system from scratch",
       "speaker": "ruben-valseca",
       "description": [
-        "Vue.js has become quite popular lately - thanks to its fast learning curve, single file components, template system, progressive framework, etc ...",
+        "Vue.js has become quite popular lately - thanks to its fast learning curve, single file components, template system, progressive framework, etc.",
         "One of the main strengths is the reactive system that allows us to scale our application by manipulating the data without having to worry about when to update. But ... how does it work? How does Vue realize that a data has changed in the most remote part of an array and update \"automagically\" the values that depend on it? Does this system have limits?",
         "In this talk we will see what the \"magic\" is behind Vue.js through a practical example that demonstrates the reactivity at the base of our development."
       ]
@@ -270,7 +270,7 @@
     "schedule-ama": {
       "time": "17:45",
       "name": "Surprise!",
-      "speaker": "",
+      "speaker": "Ayyyyy",
       "description": ["You won't be disappointed."]
     },
     "schedule-end": {

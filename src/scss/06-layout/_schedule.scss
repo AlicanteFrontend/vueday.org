@@ -63,6 +63,16 @@
 .slot__speaker {
   padding-left: var(--padding-l);
   font-size: var(--font-size-m);
+
+  a {
+    color: var(--white);
+    text-decoration: none;
+
+    &:hover,
+    &:active {
+      color: var(--green);
+    }
+  }
 }
 
 .slot__description {
