@@ -177,13 +177,13 @@
       "time": "08:00",
       "name": "Check in",
       "speaker": "",
-      "description": [""]
+      "description": ["Don't be late!"]
     },
     "schedule-intro": {
       "time": "08:45",
       "name": "Intro :)",
       "speaker": "",
-      "description": [""]
+      "description": ["A warm welcome"]
     },
     "talk-1": {
       "time": "09:00",
