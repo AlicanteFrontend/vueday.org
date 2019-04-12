@@ -213,19 +213,21 @@
         "Ever wondered how Nuxt.js works? Sebastien, creator of Nuxt.js will explain how the framework works internally. Giving you the knowledge to enjoy the full power of Nuxt and its module ecosystem."
       ]
     },
-    "talk-5": {
+    "talk-4": {
       "time": "12:00",
+      "name": "How does Vue.js reactivity work? Implementing a reactive system from scratch",
+      "speaker": "ruben-valseca",
+      "description": [
+        "Vue.js has become quite popular lately - thanks to its fast learning curve, single file components, template system, progressive framework, etc.",
+        "One of the main strengths is the reactive system that allows us to scale our application by manipulating the data without having to worry about when to update. But ... how does it work? How does Vue realize that a data has changed in the most remote part of an array and update \"automagically\" the values that depend on it? Does this system have limits?",
+        "In this talk we will see what the \"magic\" is behind Vue.js through a practical example that demonstrates the reactivity at the base of our development."
+      ]
+    },
+    "talk-5": {
+      "time": "12:50",
       "name": "<em>Pending</em>",
       "speaker": "alex-jover",
       "description": []
-    },
-    "talk-4": {
-      "time": "12:50",
-      "name": "Leave your legacy code behind and go Nuxt",
-      "speaker": "debbie-obrien",
-      "description": [
-        "Want to migrate to a Single Page Application but still need great SEO? Nuxt has you covered. But Nuxt is so much more than just Server Side Rendering. Join me on this talk to discover why you should be considering Nuxt as your framework of choice. How to call your data from an api with asyncData and why you should consider using static sites. What? Static sites? Yes. I will also go through how to setup a great boilerplate project so you can easily get started and migrate all your sites or build new ones. Are you Nuxt?"
-      ]
     },
     "schedule-lunch": {
       "time": "13:40",
@@ -243,12 +245,10 @@
     },
     "talk-7": {
       "time": "15:50",
-      "name": "How does Vue.js reactivity work? Implementing a reactive system from scratch",
-      "speaker": "ruben-valseca",
+      "name": "Leave your legacy code behind and go Nuxt",
+      "speaker": "debbie-obrien",
       "description": [
-        "Vue.js has become quite popular lately - thanks to its fast learning curve, single file components, template system, progressive framework, etc.",
-        "One of the main strengths is the reactive system that allows us to scale our application by manipulating the data without having to worry about when to update. But ... how does it work? How does Vue realize that a data has changed in the most remote part of an array and update \"automagically\" the values that depend on it? Does this system have limits?",
-        "In this talk we will see what the \"magic\" is behind Vue.js through a practical example that demonstrates the reactivity at the base of our development."
+        "Want to migrate to a Single Page Application but still need great SEO? Nuxt has you covered. But Nuxt is so much more than just Server Side Rendering. Join me on this talk to discover why you should be considering Nuxt as your framework of choice. How to call your data from an api with asyncData and why you should consider using static sites. What? Static sites? Yes. I will also go through how to setup a great boilerplate project so you can easily get started and migrate all your sites or build new ones. Are you Nuxt?"
       ]
     },
     "jamacuco-break": {
