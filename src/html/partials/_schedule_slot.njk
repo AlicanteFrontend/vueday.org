@@ -1,0 +1,28 @@
+<li class="slot" id="{{slot_id}}">
+  <time class="slot__time">
+    <span class="slot__dot"></span>
+    <strong>{{slot.time}}</strong>
+  </time>
+
+  <div>
+    <h4 class="slot__name">{{slot.name | safe}}</h4>
+
+    {% if slot.speaker %}
+      {% if speakers[slot.speaker] %}
+        <p class="slot__speaker">
+          <a href="#{{slot.speaker}}">{{speakers[slot.speaker].name}}</a>
+        </p>
+      {% else %}
+        <p class="slot__speaker">{{slot.speaker}}</p>
+      {% endif %}
+    {% endif %}
+
+    {% if slot.description %}
+      <div class="slot__description">
+        {% for desc in slot.description %}
+          <p>{{desc | safe}}</p>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</li>

@@ -1,3 +1,11 @@
-<section id="schedule" class="bb">
-  Agenda
+<section id="schedule" class="schedule pt-header-height pb-header-height">
+  <div class="container container--narrow">
+    <h2 class="subtitle">Schedule</h2>
+
+    <ul class="schedule__list">
+      {% for slot_id, slot in schedule %}
+        {% include "html/partials/_schedule_slot.njk" %}
+      {% endfor %}
+    </ul>
+  </div>
 </section>

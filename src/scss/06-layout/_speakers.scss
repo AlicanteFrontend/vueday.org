@@ -13,7 +13,7 @@
 
 .speakers__title {
   font-family: var(--font-family-special);
-  font-size: var(--font-size-xxl);
+  font-size: var(--font-size-xl);
   font-weight: 600;
 }
 
@@ -21,6 +21,10 @@
   border: var(--border-w) solid var(--black);
   background-color: var(--black);
   color: var(--white);
+
+  &:target {
+    @include shadow(var(--green), calc(var(--border-w) * 2));
+  }
 }
 
 .speaker__inner {
@@ -34,7 +38,7 @@
 }
 
 .speaker__name {
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-lg);
   margin-bottom: var(--spacing-m);
 }
 

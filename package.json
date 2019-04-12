@@ -8,7 +8,7 @@
     "prebuild": "rimraf dist/*",
     "build": "NODE_ENV=production npm run validate && parcel build src/index.njk --no-cache",
     "serve": "npm run build && npx serve dist",
-    "lint": "npm run lint:js && npm run lint:css",
+    "lint": "npm run lint:css",
     "lint:js": "eslint src/**/*.js --fix",
     "lint:css": "stylelint './src/**/*.+(css|scss)'",
     "prettier": "prettier \"src/**/*.+(js|html|css|scss|json|md|yml|yaml|md)\"",

@@ -1,18 +1,16 @@
 {% import "html/macros.njk" as macros %}
 
 <!DOCTYPE html>
-<html class="no-js" lang="{{ lang }}">
+<html lang="{{ lang }}">
   <head>
+
     <!-- Metas -->
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>
       {% block documentTitle %}Vue Day 2019{% endblock %}
     </title>
-    <meta
-      name="description"
-      content="The 2nd edition of Vue Day is here: a whole day to learn about your favorite framework from local, national and international speakers. See you on Friday May 31 at Panoramis Cinema, next to the beautiful Port of Alicante. Brought to you by Alicante Frontend."
-    />
+    <meta name="description" content="The 2nd edition of Vue Day is here: a whole day to learn about your favorite framework from local, national and international speakers. See you on Friday May 31 at Panoramis Cinema, next to the beautiful Port of Alicante. Brought to you by Alicante Frontend." />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="author" content="Aarón García Hervás, @aarongarciah, https://aarongarciah.com" />
 
@@ -29,18 +27,12 @@
 
     <!-- Schema.org for Google -->
     <meta itemprop="name" content="Vue Day 2019 | May 31 in Alicante" />
-    <meta
-      itemprop="description"
-      content="The 2nd edition of Vue Day is here: a whole day to learn about your favorite framework from local, national and international speakers. See you on Friday May 31 at Panoramis Cinema, next to the beautiful Port of Alicante. Brought to you by Alicante Frontend."
-    />
+    <meta itemprop="description" content="The 2nd edition of Vue Day is here: a whole day to learn about your favorite framework from local, national and international speakers. See you on Friday May 31 at Panoramis Cinema, next to the beautiful Port of Alicante. Brought to you by Alicante Frontend." />
     <meta itemprop="image" content="./static/vue-day.jpg" />
 
     <!-- Open Graph general -->
     <meta property="og:title" content="Vue Day 2019 | May 31 in Alicante" />
-    <meta
-      property="og:description"
-      content="The 2nd edition of Vue Day is here: a whole day to learn about your favorite framework from local, national and international speakers. See you on Friday May 31 at Panoramis Cinema, next to the beautiful Port of Alicante. Brought to you by Alicante Frontend."
-    />
+    <meta property="og:description" content="The 2nd edition of Vue Day is here: a whole day to learn about your favorite framework from local, national and international speakers. See you on Friday May 31 at Panoramis Cinema, next to the beautiful Port of Alicante. Brought to you by Alicante Frontend." />
     <meta property="og:image" content="./static/vue-day.jpg" />
     <meta property="og:image:alt" content="Vue Day 2019 logo" />
     <meta property="og:image:width" content="1200">
@@ -53,28 +45,61 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Vue Day 2019 | May 31 in Alicante" />
-    <meta
-      name="twitter:description"
-      content="The 2nd edition of Vue Day is here: a whole day to learn about your favorite framework. See you on Friday May 31 at Panoramis Cinema, next to the beautiful Port of Alicante. Brought to you by Alicante Frontend."
-    />
+    <meta name="twitter:description" content="The 2nd edition of Vue Day is here: a whole day to learn about your favorite framework. See you on Friday May 31 at Panoramis Cinema, next to the beautiful Port of Alicante. Brought to you by Alicante Frontend." />
     <meta name="twitter:site" content="@VueDay" />
     <meta name="twitter:creator" content="@VueDay" />
     <meta name="twitter:image" content="./static/vue-day-twitter.jpg" />
     <meta name="twitter:image:alt" content="Vue Day 2019 logo" />
 
     <!-- preconnect, preload, etc. -->
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="crossorigin" />
 
     <!-- Google Fonts -->
+
     <!-- Code snippet to speed up Google Fonts rendering: googlefonts.3perf.com -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Dosis:500,600" as="fetch" crossorigin="anonymous">
     <script type="text/javascript">
-    !function(e,n,t){"use strict";var o="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Dosis:500,600",r="__3perf_googleFonts_ab220";function c(e){(n.head||n.body).appendChild(e)}function a(){var e=n.createElement("link");e.href=o,e.rel="stylesheet",c(e)}function f(e){if(!n.getElementById(r)){var t=n.createElement("style");t.id=r,c(t)}n.getElementById(r).innerHTML=e}e.FontFace&&e.FontFace.prototype.hasOwnProperty("display")?(t[r]&&f(t[r]),fetch(o).then(function(e){return e.text()}).then(function(e){return e.replace(/@font-face {/g,"@font-face{font-display:swap;")}).then(function(e){return t[r]=e}).then(f).catch(a)):a()}(window,document,localStorage);
+      !function (e, n, t) {
+        "use strict";
+        var o = "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Dosis:500,600",
+          r = "__3perf_googleFonts_ab220";
+        function c(e) {
+          (n.head || n.body).appendChild(e)
+        }
+        function a() {
+          var e = n.createElement("link");
+          e.href = o,
+          e.rel = "stylesheet",
+          c(e)
+        }
+        function f(e) {
+          if (!n.getElementById(r)) {
+            var t = n.createElement("style");
+            t.id = r,
+            c(t)
+          }
+          n
+            .getElementById(r)
+            .innerHTML = e
+        }
+        e.FontFace && e
+          .FontFace
+          .prototype
+          .hasOwnProperty("display")
+            ? (t[r] && f(t[r]), fetch(o).then(function (e) {
+              return e.text()
+            }).then(function (e) {
+              return e.replace(/@font-face {/g, "@font-face{font-display:swap;")
+            }).then(function (e) {
+              return t[r] = e
+            }).then(f).catch(a))
+            : a()
+      }(window, document, localStorage);
     </script>
-    <!-- End of code snippet for Google Fonts -->
 
+    <!-- End of code snippet for Google Fonts -->
 
     <!-- Styles -->
     <link rel="stylesheet" href="scss/main.scss" />
@@ -96,8 +121,6 @@
     <script>
       var doc = document;
 
-      doc.documentElement.classList.remove('no-js');
-
       /** Mobile nav */
       var nav = doc.querySelector('.js-nav');
       var navBtn = doc.querySelector('.js-toggle-nav');
@@ -105,14 +128,20 @@
       var navToggleLabelOpened = 'Close menu';
 
       function openNav() {
-        nav.classList.add('is-open');
-        nav.querySelector('a').focus();
+        nav
+          .classList
+          .add('is-open');
+        nav
+          .querySelector('a')
+          .focus();
         navBtn.setAttribute('aria-expanded', 'true');
         navBtn.setAttribute('aria-label', navToggleLabelOpened);
       }
 
       function closeNav() {
-        nav.classList.remove('is-open');
+        nav
+          .classList
+          .remove('is-open');
         navBtn.setAttribute('aria-expanded', 'false');
         navBtn.setAttribute('aria-label', navToggleLabelClosed);
       }
@@ -128,13 +157,12 @@
       });
 
       nav.addEventListener('click', function (e) {
-        console.log(e);
         if (e.target && e.target.classList.contains('js-nav-item')) {
           closeNav();
         }
       });
     </script>
-    <script src="https://www.googletagmanager.com/gtag/js?id=UA-87037918-2" async></script>
+    <script src="https://www.googletagmanager.com/gtag/js?id=UA-87037918-2" async="async"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {

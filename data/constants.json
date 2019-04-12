@@ -28,9 +28,8 @@
   "gmaps": {
     "url": "https://goo.gl/maps/FEsEi1EWodF2"
   },
-  "speakers": [
-    {
-      "id": "eduardo-san-martin",
+  "speakers": {
+    "eduardo-san-martin": {
       "name": "Eduardo San Martín",
       "picture": "static/speakers/eduardo-san-martin-morote.jpg",
       "description": "Vue Core Team member.",
@@ -40,8 +39,7 @@
         "website": "https://posva.net/"
       }
     },
-    {
-      "id": "sebastien-chopin",
+    "sebastien-chopin": {
       "name": "Sebastien Chopin",
       "picture": "static/speakers/sebastien-chopin.jpg",
       "description": "Co-creator of Nuxt. Community partner of Vue.",
@@ -51,8 +49,7 @@
         "website": "https://atinux.com/"
       }
     },
-    {
-      "id": "alexandre-chopin",
+    "alexandre-chopin": {
       "name": "Alexandre Chopin",
       "picture": "static/speakers/alexandre-chopin.jpg",
       "description": "Co-creator of Nuxt. Community partner of Vue.",
@@ -62,8 +59,7 @@
         "website": "https://alexchopin.com/"
       }
     },
-    {
-      "id": "debbie-obrien",
+    "debbie-obrien": {
       "name": "Debbie O'Brien",
       "picture": "static/speakers/debbie-obrien.jpg",
       "description": "Frontend Tech Lead at Agency Patterson. Mentor at OpenClassrooms.",
@@ -73,8 +69,7 @@
         "website": ""
       }
     },
-    {
-      "id": "ruben-valseca",
+    "ruben-valseca": {
       "name": "Rubén Valseca",
       "picture": "static/speakers/ruben-valseca.jpg",
       "description": "VueJSMadrid co-organizer. Style Sage developer. FrontFest co-founder.",
@@ -84,8 +79,7 @@
         "website": ""
       }
     },
-    {
-      "id": "marina-aisa",
+    "marina-aisa": {
       "name": "Marina Aisa",
       "picture": "static/speakers/marina-aisa.jpg",
       "description": "UX Engineer at Holaluz. Design and code.",
@@ -95,8 +89,7 @@
         "website": "https://marinaaisa.com/"
       }
     },
-    {
-      "id": "quique-fernandez-guerra",
+    "quique-fernandez-guerra": {
       "name": "Quique Fdez Guerra",
       "picture": "static/speakers/quique-fernandez-guerra.jpg",
       "description": "Developer at Plain Concepts. Founder of HelpDev.",
@@ -106,8 +99,7 @@
         "website": "http://blog.ckgrafico.com/"
       }
     },
-    {
-      "id": "alex-jover",
+    "alex-jover": {
       "name": "Alex Jover",
       "picture": "static/speakers/alex-jover.jpg",
       "description": "Vue community partner and GDE. VueDose author. Co-organizes Alicante Frontend.",
@@ -117,34 +109,31 @@
         "website": "https://alexjover.com/"
       }
     }
-  ],
+  },
   "sponsors": {
     "platinum": {
       "name": "Platinum",
-      "list": [
-        {
-          "id": "nitsnets",
+      "list": {
+        "nitsnets": {
           "name": "Nitsnets",
           "url": "https://www.nitsnets.com/",
           "picture": "static/sponsors/nitsnets.png"
         },
-        {
-          "id": "everis",
+        "everis": {
           "name": "Everis",
           "url": "https://www.everis.com/global/en",
           "picture": "static/sponsors/everis.png"
         },
-        {
-          "id": "mindden",
+        "mindden": {
           "name": "Mindden",
           "url": "https://www.mindden.com/",
           "picture": "static/sponsors/mindden.png"
         }
-      ]
+      }
     },
     "gold": {
       "name": "Gold",
-      "list": []
+      "list": {}
     },
     "silver": {
       "name": "Silver",
@@ -159,31 +148,136 @@
     },
     "bronze": {
       "name": "Bronze",
-      "list": [
-        {
-          "id": "coosto",
+      "list": {
+        "coosto": {
           "name": "Coosto",
           "url": "https://www.coosto.com/en",
           "picture": "static/sponsors/coosto.png"
         },
-        {
-          "id": "vuejobs",
+        "vuejobs": {
           "name": "VueJobs",
           "url": "https://vuejobs.com/",
           "picture": "static/sponsors/vuejobs.png"
         }
-      ]
+      }
     },
     "collaborators": {
       "name": "Collaborators",
-      "list": [
-        {
-          "id": "eventbrite",
+      "list": {
+        "eventbrite": {
           "name": "Eventbrite",
           "url": "https://www.eventbrite.com/",
           "picture": "static/sponsors/eventbrite.png"
         }
+      }
+    }
+  },
+  "schedule": {
+    "schedule-checkin": {
+      "time": "08:00",
+      "name": "Check in",
+      "speaker": "",
+      "description": ["Don't be late!"]
+    },
+    "schedule-intro": {
+      "time": "08:45",
+      "name": "Intro :)",
+      "speaker": "",
+      "description": ["A warm and short welcome."]
+    },
+    "talk-1": {
+      "time": "09:00",
+      "name": "<em>Pending</em>",
+      "speaker": "marina-aisa",
+      "description": []
+    },
+    "talk-2": {
+      "time": "09:50",
+      "name": "Nuxt.js 2K19",
+      "speaker": "alexandre-chopin",
+      "description": [
+        "Do you want to learn more about Nuxt.js history? Alexandre, creator of Nuxt.js will explain how a simple project became one of the most active open source project in the Vue ecosystem. How the framework and community grew over time."
       ]
+    },
+    "schedule-breakfast": {
+      "time": "10:40",
+      "name": "Breakfast ☕️",
+      "speaker": "",
+      "description": ["Take some energy for the rest of the morning 💪"]
+    },
+    "talk-3": {
+      "time": "11:10",
+      "name": "Deep Dive into Nuxt.js internals",
+      "speaker": "sebastien-chopin",
+      "description": [
+        "Ever wondered how Nuxt.js works? Sebastien, creator of Nuxt.js will explain how the framework works internally. Giving you the knowledge to enjoy the full power of Nuxt and its module ecosystem."
+      ]
+    },
+    "talk-4": {
+      "time": "12:00",
+      "name": "How does Vue.js reactivity work? Implementing a reactive system from scratch",
+      "speaker": "ruben-valseca",
+      "description": [
+        "Vue.js has become quite popular lately - thanks to its fast learning curve, single file components, template system, progressive framework, etc.",
+        "One of the main strengths is the reactive system that allows us to scale our application by manipulating the data without having to worry about when to update. But ... how does it work? How does Vue realize that a data has changed in the most remote part of an array and update \"automagically\" the values that depend on it? Does this system have limits?",
+        "In this talk we will see what the \"magic\" is behind Vue.js through a practical example that demonstrates the reactivity at the base of our development."
+      ]
+    },
+    "talk-5": {
+      "time": "12:50",
+      "name": "<em>Pending</em>",
+      "speaker": "alex-jover",
+      "description": []
+    },
+    "schedule-lunch": {
+      "time": "13:40",
+      "name": "Lunch 🥘",
+      "speaker": "",
+      "description": ["Enjoy a fantastic meal with the harbor views."]
+    },
+    "talk-6": {
+      "time": "15:00",
+      "name": "You can inject dependencies in your components, let's do it!",
+      "speaker": "quique-fernandez-guerra",
+      "description": [
+        "In many programming languages it is quite usual to inject our dependencies, in fact it is related to one of the solid principles (Dependency Inversion). And in the Frontend what?? In some Angular-like frameworks it is resolved, but when we do not use any framework or we work with some more like Vue, React or Preact we have to import our dependencies on different ways. In this talk I want to help you to make the process easier, come and learn everything dependency injection can do for you."
+      ]
+    },
+    "talk-7": {
+      "time": "15:50",
+      "name": "Leave your legacy code behind and go Nuxt",
+      "speaker": "debbie-obrien",
+      "description": [
+        "Want to migrate to a Single Page Application but still need great SEO? Nuxt has you covered. But Nuxt is so much more than just Server Side Rendering. Join me on this talk to discover why you should be considering Nuxt as your framework of choice. How to call your data from an api with asyncData and why you should consider using static sites. What? Static sites? Yes. I will also go through how to setup a great boilerplate project so you can easily get started and migrate all your sites or build new ones. Are you Nuxt?"
+      ]
+    },
+    "jamacuco-break": {
+      "time": "16:40",
+      "name": "Short break",
+      "speaker": "",
+      "description": ["Stretch your legs."]
+    },
+    "talk-8": {
+      "time": "16:55",
+      "name": "The present and future of Vue Router",
+      "speaker": "eduardo-san-martin",
+      "description": [
+        "When we develop single-page applications, we have to use a router. Every single framework has its own router, React even has multiple ones you can choose from. And even though each framework is different and every router takes a different approach, they all share the same principles.",
+        "What is behind a simple and easy-to-use API? Is it really that difficult to create your own SPA router? What are the different approaches and their advantages, caveats?",
+        "Let's talk about the existing different approaches we see in SPA routers, today's Vue Router implementation and what is coming for the next versions of Vue Router"
+      ]
+    },
+    "schedule-ama": {
+      "time": "17:45",
+      "name": "Surprise!",
+      "speaker": "",
+      "description": ["You won't be disappointed."]
+    },
+    "schedule-end": {
+      "time": "18:00",
+      "name": "The End",
+      "speaker": "",
+      "description": ["You're free to enjoy the city of Alicante :)"]
     }
   }
 }
