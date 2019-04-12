@@ -137,14 +137,13 @@
     },
     "silver": {
       "name": "Silver",
-      "list": [
-        {
-          "id": "spotahome",
+      "list": {
+        "spotahome": {
           "name": "Spotahome",
           "url": "https://www.spotahome.com/",
           "picture": "static/sponsors/spotahome.png"
         }
-      ]
+      }
     },
     "bronze": {
       "name": "Bronze",
