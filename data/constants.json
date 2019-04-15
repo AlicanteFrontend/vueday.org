@@ -224,9 +224,11 @@
     },
     "talk-5": {
       "time": "12:50",
-      "name": "<em>Pending</em>",
+      "name": "Using Nuxt.js in huge E-Commerce",
       "speaker": "alex-jover",
-      "description": []
+      "description": [
+        "Nuxt has many use cases, but have you ever used it for a huge E-Commerce? In this talk Alex will talk about the experience of building an E-Commerce already in production, the obstacles found and the decisions taken, and specially the lessons learnt on the way. He will show as well some interesting tools for Nuxt that have been developed after this experience."
+      ]
     },
     "schedule-lunch": {
       "time": "13:40",
