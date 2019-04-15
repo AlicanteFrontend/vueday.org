@@ -186,9 +186,13 @@
     },
     "talk-1": {
       "time": "09:00",
-      "name": "<em>Pending</em>",
+      "name": "Building a multilingual blog using Nuxt and Markdown",
       "speaker": "marina-aisa",
-      "description": []
+      "description": [
+        "Technological blogs have been and are very important for the community and the professional growth of who writes them. They are on the rise but when it comes of sharing that content we have a series of questions:",
+        "Where do we write? Third party platforms or our own website? What technology to use to build our blog and why? Do we need a server? Where do we host it?",
+        "In this talk I will tell you how was my own process of creating a multilingual serverless blog with Nuxt, the reason why I chose it, differences between building a webapp blog and a static one, performance, the choice of writing in Markdown and some mistakes along the way using wrongly Vuex."
+      ]
     },
     "talk-2": {
       "time": "09:50",
