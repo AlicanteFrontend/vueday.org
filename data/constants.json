@@ -157,6 +157,11 @@
           "name": "VueJobs",
           "url": "https://vuejobs.com/",
           "picture": "static/sponsors/vuejobs.png"
+        },
+        "square1": {
+          "name": "Square1",
+          "url": "https://www.square1.io/",
+          "picture": "static/sponsors/square1.png"
         }
       }
     },
