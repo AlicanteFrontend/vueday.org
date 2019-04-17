@@ -162,6 +162,11 @@
           "name": "Square1",
           "url": "https://www.square1.io/",
           "picture": "static/sponsors/square1.png"
+        },
+        "webempresa": {
+          "name": "Webempresa",
+          "url": "https://www.webempresa.com/",
+          "picture": "static/sponsors/webempresa.png"
         }
       }
     },
