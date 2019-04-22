@@ -48,7 +48,7 @@
 
 .sponsors-group__list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
   grid-gap: var(--spacing-xxl);
   align-items: center;
   flex-grow: 1;
@@ -59,6 +59,18 @@
 .sponsors-group__list--platinum {
   @include mq($from: phablet) {
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  }
+}
+
+.sponsors-group__list--gold {
+  @include mq($from: phablet) {
+    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  }
+}
+
+.sponsors-group__list--silver {
+  @include mq($from: phablet) {
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
   }
 }
 

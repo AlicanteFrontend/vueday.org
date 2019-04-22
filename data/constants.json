@@ -133,7 +133,13 @@
     },
     "gold": {
       "name": "Gold",
-      "list": {}
+      "list": {
+        "mindden": {
+          "name": "DevCenter",
+          "url": "https://www.devcenter.es/",
+          "picture": "static/sponsors/devcenter.png"
+        }
+      }
     },
     "silver": {
       "name": "Silver",
@@ -177,6 +183,11 @@
           "name": "Eventbrite",
           "url": "https://www.eventbrite.com/",
           "picture": "static/sponsors/eventbrite.png"
+        },
+        "egghead": {
+          "name": "Egghead",
+          "url": "https://egghead.io/",
+          "picture": "static/sponsors/egghead.png"
         }
       }
     }
