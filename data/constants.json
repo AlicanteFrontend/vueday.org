@@ -147,7 +147,7 @@
         "spotahome": {
           "name": "Spotahome",
           "url": "https://www.spotahome.com/",
-          "picture": "static/sponsors/spotahome.png"
+          "picture": "static/sponsors/spotahome.svg"
         }
       }
     },
@@ -187,7 +187,17 @@
         "egghead": {
           "name": "Egghead",
           "url": "https://egghead.io/",
-          "picture": "static/sponsors/egghead.png"
+          "picture": "static/sponsors/egghead.svg"
+        },
+        "holaluz": {
+          "name": "Holaluz",
+          "url": "https://www.holaluz.com/",
+          "picture": "static/sponsors/holaluz.svg"
+        },
+        "plain-concepts": {
+          "name": "Plain Concepts",
+          "url": "https://www.plainconcepts.com/",
+          "picture": "static/sponsors/plain-concepts.png"
         }
       }
     }
