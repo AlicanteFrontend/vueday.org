@@ -198,6 +198,11 @@
           "name": "Plain Concepts",
           "url": "https://www.plainconcepts.com/",
           "picture": "static/sponsors/plain-concepts.png"
+        },
+        "yamuve": {
+          "name": "Yamuve",
+          "url": "https://yamuve.com/",
+          "picture": "static/sponsors/yamuve.svg"
         }
       }
     }
