@@ -134,10 +134,15 @@
     "gold": {
       "name": "Gold",
       "list": {
-        "mindden": {
+        "devcenter": {
           "name": "DevCenter",
           "url": "https://www.devcenter.es/",
           "picture": "static/sponsors/devcenter.png"
+        },
+        "gtt": {
+          "name": "Gestión Tributaria Territorial",
+          "url": "https://www.gtt.es/",
+          "picture": "static/sponsors/gtt.png"
         }
       }
     },
