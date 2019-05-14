@@ -81,9 +81,13 @@
   img {
     display: inline-block;
     max-height: 8rem;
-
-    .sponsors-group__list--platinum & {
-      max-height: 10rem;
-    }
   }
+}
+
+.sponsor--gtt img {
+  max-height: 6rem;
+}
+
+.sponsors-group__list--platinum .sponsor img {
+  max-height: 10rem;
 }
