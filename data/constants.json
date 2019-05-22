@@ -174,10 +174,10 @@
           "url": "https://www.square1.io/",
           "picture": "static/sponsors/square1.png"
         },
-        "webempresa": {
-          "name": "Webempresa",
-          "url": "https://www.webempresa.com/",
-          "picture": "static/sponsors/webempresa.png"
+        "ciberprotector": {
+          "name": "CiberProtector",
+          "url": "https://ciberprotector.com/",
+          "picture": "static/sponsors/ciberprotector.png"
         }
       }
     },
