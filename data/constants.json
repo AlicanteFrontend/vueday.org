@@ -225,8 +225,16 @@
       "speaker": "",
       "description": ["A warm and short welcome."]
     },
-    "talk-1": {
+    "schedule-ama": {
       "time": "09:00",
+      "name": "Live videoconference with Evan You",
+      "speaker": "",
+      "description": [
+        "He will join us through videoconference to have a QA session and talk about Vue."
+      ]
+    },
+    "talk-1": {
+      "time": "09:15",
       "name": "Building a multilingual blog using Nuxt and Markdown",
       "speaker": "marina-aisa",
       "description": [
@@ -236,7 +244,7 @@
       ]
     },
     "talk-2": {
-      "time": "09:50",
+      "time": "10:05",
       "name": "Nuxt.js 2K19",
       "speaker": "alexandre-chopin",
       "description": [
@@ -244,13 +252,13 @@
       ]
     },
     "schedule-breakfast": {
-      "time": "10:40",
+      "time": "10:55",
       "name": "Breakfast ☕️",
       "speaker": "",
       "description": ["Take some energy for the rest of the morning 💪"]
     },
     "talk-3": {
-      "time": "11:10",
+      "time": "11:30",
       "name": "Deep Dive into Nuxt.js internals",
       "speaker": "sebastien-chopin",
       "description": [
@@ -258,7 +266,29 @@
       ]
     },
     "talk-4": {
-      "time": "12:00",
+      "time": "12:20",
+      "name": "Using Nuxt.js in huge E-Commerce",
+      "speaker": "alex-jover",
+      "description": [
+        "Nuxt has many use cases, but have you ever used it for a huge E-Commerce? In this talk Alex will talk about the experience of building an E-Commerce already in production, the obstacles found and the decisions taken, and specially the lessons learnt on the way. He will show as well some interesting tools for Nuxt that have been developed after this experience."
+      ]
+    },
+    "talk-5": {
+      "time": "13:10",
+      "name": "You can inject dependencies in your components, let's do it!",
+      "speaker": "quique-fernandez-guerra",
+      "description": [
+        "In many programming languages it is quite usual to inject our dependencies, in fact it is related to one of the solid principles (Dependency Inversion). And in the Frontend what?? In some Angular-like frameworks it is resolved, but when we do not use any framework or we work with some more like Vue, React or Preact we have to import our dependencies on different ways. In this talk I want to help you to make the process easier, come and learn everything dependency injection can do for you."
+      ]
+    },
+    "schedule-lunch": {
+      "time": "14:00",
+      "name": "Lunch 🥘",
+      "speaker": "",
+      "description": ["Enjoy a fantastic meal with the harbor views."]
+    },
+    "talk-6": {
+      "time": "15:30",
       "name": "How does Vue.js reactivity work? Implementing a reactive system from scratch",
       "speaker": "ruben-valseca",
       "description": [
@@ -267,30 +297,8 @@
         "In this talk we will see what the \"magic\" is behind Vue.js through a practical example that demonstrates the reactivity at the base of our development."
       ]
     },
-    "talk-5": {
-      "time": "12:50",
-      "name": "Using Nuxt.js in huge E-Commerce",
-      "speaker": "alex-jover",
-      "description": [
-        "Nuxt has many use cases, but have you ever used it for a huge E-Commerce? In this talk Alex will talk about the experience of building an E-Commerce already in production, the obstacles found and the decisions taken, and specially the lessons learnt on the way. He will show as well some interesting tools for Nuxt that have been developed after this experience."
-      ]
-    },
-    "schedule-lunch": {
-      "time": "13:40",
-      "name": "Lunch 🥘",
-      "speaker": "",
-      "description": ["Enjoy a fantastic meal with the harbor views."]
-    },
-    "talk-6": {
-      "time": "15:00",
-      "name": "You can inject dependencies in your components, let's do it!",
-      "speaker": "quique-fernandez-guerra",
-      "description": [
-        "In many programming languages it is quite usual to inject our dependencies, in fact it is related to one of the solid principles (Dependency Inversion). And in the Frontend what?? In some Angular-like frameworks it is resolved, but when we do not use any framework or we work with some more like Vue, React or Preact we have to import our dependencies on different ways. In this talk I want to help you to make the process easier, come and learn everything dependency injection can do for you."
-      ]
-    },
     "talk-7": {
-      "time": "15:50",
+      "time": "16:20",
       "name": "Leave your legacy code behind and go Nuxt",
       "speaker": "debbie-obrien",
       "description": [
@@ -298,13 +306,13 @@
       ]
     },
     "jamacuco-break": {
-      "time": "16:40",
+      "time": "17:10",
       "name": "Short break",
       "speaker": "",
       "description": ["Stretch your legs."]
     },
     "talk-8": {
-      "time": "16:55",
+      "time": "17:25",
       "name": "The present and future of Vue Router",
       "speaker": "eduardo-san-martin",
       "description": [
@@ -313,14 +321,8 @@
         "Let's talk about the existing different approaches we see in SPA routers, today's Vue Router implementation and what is coming for the next versions of Vue Router"
       ]
     },
-    "schedule-ama": {
-      "time": "17:45",
-      "name": "Surprise!",
-      "speaker": "",
-      "description": ["You won't be disappointed."]
-    },
     "schedule-end": {
-      "time": "18:00",
+      "time": "18:15",
       "name": "The End",
       "speaker": "",
       "description": ["You're free to enjoy the city of Alicante :)"]
