@@ -6,6 +6,9 @@
     "priceEarly": "30€",
     "priceRegular": "45€"
   },
+  "livestream": {
+    "url": "http://vueday-live.surge.sh/"
+  },
   "social": {
     "email": "info@vueday.org",
     "twitter": {
