@@ -13,6 +13,10 @@
   display: flex;
   justify-content: space-between;
   height: 100%;
+
+  body.live-page & {
+    justify-content: center;
+  }
 }
 
 .logo {
@@ -45,6 +49,21 @@
       max-height: 3.8rem;
     }
   }
+
+  body.live-page &:after {
+    content: 'LIVE';
+    display: inline-block;
+    padding: 2px 4px;
+    margin-left: var(--spacing-s);
+    font-family: var(--font-family);
+    font-size: var(--font-size-s);
+    font-weight: 600;
+    color: var(--white);
+    background-color: var(--red);
+    border-radius: 2px;
+    transform: rotate(var(--rotation-s));
+    box-shadow: 2px 2px 0 0 var(--black);
+  }
 }
 
 .logo__year {
@@ -57,13 +76,11 @@
 
   position: absolute;
   display: none;
-
   top: 100%;
   left: 0;
   width: 100%;
   padding-top: var(--spacing-m);
   padding-bottom: var(--spacing-m);
-
   background-color: var(--grey-light);
 
   @include mq(desktop) {
@@ -74,7 +91,10 @@
     padding: 0;
     border-bottom: none;
     background-color: transparent;
-    box-shadow: none;
+  }
+
+  body.live-page & {
+    display: none;
   }
 }
 
@@ -229,6 +249,10 @@
   user-select: none;
 
   @include mq(desktop) {
+    display: none;
+  }
+
+  body.live-page & {
     display: none;
   }
 }

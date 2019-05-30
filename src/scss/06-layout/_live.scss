@@ -1,0 +1,40 @@
+.live-page {
+  height: 90vh;
+  height: calc(100vh - 5.6rem);
+  height: calc(100vh - var(--header-h));
+  color: var(--white);
+  background: var(--black);
+}
+
+.live-video {
+  display: none;
+  width: 100%;
+  height: 100%;
+
+  &:focus {
+    outline: none;
+  }
+
+  .live-page.is-on & {
+    display: block;
+  }
+}
+
+.live-video .vjs-big-play-button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.live-coming-soon {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  .live-page.is-off & {
+    display: flex;
+  }
+}

@@ -1,0 +1,53 @@
+{% extends "html/templates/default.njk" %}
+
+{% set t = en %}
+
+{% block documentTitle %}Live Streaming  Vue Day 2019 | May 31 in Alicante | Brought to you by Alicante Frontend{% endblock %}
+
+{% block bodyClass %}live-page{% endblock %}
+
+{% block extraStyleTags %}
+  <link href="https://unpkg.com/video.js@7.5.4/dist/video-js.min.css" rel="stylesheet">
+{% endblock %}
+
+{% block extraScriptTags %}
+  <script src="https://unpkg.com/video.js@7.5.4/dist/video.min.js"></script>
+  <script src="https://unpkg.com/@videojs/http-streaming@1.10.2/dist/videojs-http-streaming.min.js"></script>
+  <script>
+    var interval = null;
+
+    function startStreaming() {
+      var now = Date.now();
+      var start = Date.UTC(2019, 4, 31, 6, 45);
+      var $container = document.querySelector('.live-page');
+      var $video = document.querySelector('.live-video video');
+
+      if (now >= start) {
+        $container.classList.remove('is-off');
+        $container.classList.add('is-on');
+        video.play();
+        clearInterval(interval);
+      } else {
+        $container.classList.remove('is-on');
+        $container.classList.add('is-off');
+      }
+    }
+
+    interval = setInterval(startStreaming, 30000);
+    startStreaming();
+  </script>
+{% endblock %}
+
+{% block content %}
+  <div class="live-page">
+    {# https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8 #}
+    <div class="live-coming-soon container">
+      <span>The streaming will start at Friday, <strong>May 31 at 8:45 am</strong> (CEST)</span>
+    </div>
+    <video class="video-js vjs-default-skin live-video" controls preload="auto" width="640" height="268" data-setup='{}'>
+      <source src="http://134.255.215.123:8080/hls/vuedayalc2019.m3u8" type="application/x-mpegURL">
+    </video>
+  </div>
+{% endblock %}
+
+

@@ -2,11 +2,14 @@
   padding-top: var(--spacing-l);
   padding-bottom: var(--spacing-l);
   font-size: var(--font-size-s);
-  text-align: center;
   color: var(--white);
   background-color: var(--grey);
 
   a {
     color: var(--white);
+  }
+
+  @include mq(tablet) {
+    text-align: center;
   }
 }
