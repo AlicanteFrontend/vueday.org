@@ -1,56 +1,8 @@
-{% extends "html/templates/default.njk" %}
-
-{% set t = en %}
-
-{% block documentTitle %}Live Streaming Vue Day 2019 | May 31 in Alicante | Brought to you by Alicante Frontend{% endblock %}
-
-{% block bodyClass %}live-page{% endblock %}
-
-{% block extraStyleTags %}
-  <link href="https://unpkg.com/video.js@7.5.4/dist/video-js.min.css" rel="stylesheet">
-{% endblock %}
-
-{% block extraScriptTags %}
-  <script src="https://unpkg.com/video.js@7.5.4/dist/video.min.js"></script>
-  <script src="https://unpkg.com/@videojs/http-streaming@1.10.2/dist/videojs-http-streaming.min.js"></script>
-  <script>
-    var interval = null;
-    var pageLoadedAt = Date.now();
-    var startAt = Date.UTC(2019, 4, 31, 6, 40);
-    var $container = document.querySelector('.live-page');
-    var $video = document.querySelector('.live-video video');
-
-    function startStreaming() {
-      var now = Date.now();
-
-      if (pageLoadedAt > startAt || window.location.hash === '#force') {
-        clearInterval(interval);
-        $container.classList.remove('is-off');
-        $container.classList.add('is-on');
-        $video.play();
-      } else if (now >= startAt) {
-        clearInterval(interval);
-        window.location.reload();
-      } else {
-        $container.classList.remove('is-on');
-        $container.classList.add('is-off');
-      }
-    }
-
-    interval = setInterval(startStreaming, 15000);
-    startStreaming();
-  </script>
-{% endblock %}
-
-{% block content %}
-  <div class="live-page">
-    <div class="live-coming-soon container">
-      <span>The streaming will start at Friday, <span class="nowrap"><strong>May 31 at 8:45 am</strong> (CEST)</span></span>
-    </div>
-    <video class="video-js vjs-default-skin live-video" controls preload="auto" width="640" height="268" data-setup='{}'>
-      <source src="http://134.255.215.123:8080/hls/vuedayalc2019.m3u8" type="application/x-mpegURL">
-    </video>
-  </div>
-{% endblock %}
-
-
+<html lang="en">
+  <head>
+    <title>Redirecting...</title>
+    <script>
+      window.location.replace('{{livestream.url}}');
+    </script>
+  </head>
+</html>

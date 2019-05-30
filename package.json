@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "NODE_ENV=development parcel src/index.njk --no-cache",
     "prebuild": "rimraf dist/*",
-    "build": "NODE_ENV=production npm run validate && parcel build src/index.njk --no-cache",
+    "build": "NODE_ENV=production npm run validate && parcel build src/*.njk --no-cache",
     "serve": "npm run build && npx serve dist",
     "lint": "npm run lint:css",
     "lint:js": "eslint src/**/*.js --fix",
