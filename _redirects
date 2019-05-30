@@ -1,6 +1,12 @@
 # Redirect default Netlify subdomain to primary domain
 /live http://vueday-live.surge.sh 301!
 /live.html http://vueday-live.surge.sh 301!
+https://vueday.netlify.com/live http://vueday-live.surge.sh 301!
+https://vueday.netlify.com/live.html http://vueday-live.surge.sh 301!
+http://vueday.netlify.com/live http://vueday-live.surge.sh 301!
+http://vueday.netlify.com/live.html http://vueday-live.surge.sh 301!
+https://vueday.org/live http://vueday-live.surge.sh 301!
+https://vueday.org/live.html http://vueday-live.surge.sh 301!
 
 https://vueday.netlify.com/* https://vueday.org/:splat 301!
 https://vueday.netlify.com/* https://vueday.org/:splat 301!
