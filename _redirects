@@ -1,3 +1,6 @@
 # Redirect default Netlify subdomain to primary domain
+https://vueday.netlify.com/live http://vueday.org/live 301!
+http://vueday.netlify.com/live http://vueday.org/live 301!
+https://vueday.netlify.com/* https://vueday.org/:splat 301!
 https://vueday.netlify.com/* https://vueday.org/:splat 301!
 http://vueday.netlify.com/* https://vueday.org/:splat 301!
