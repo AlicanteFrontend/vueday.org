@@ -30,5 +30,19 @@
         <span class="nowrap">Be quick!</span>
       </p>
     {% endif %}
+
+    {% if version == 'live' %}
+      <p>
+        <a
+          class="btn btn--large btn--white"
+          href="live.njk"
+        >
+          <span aria-hidden="true">🔴</span> Live streaming!
+        </a>
+      </p>
+      <p class="m-0">
+        If you couldn't make it to the Vue Day, don't worry. Watch the event online <span aria-hidden="true">🎉</span>
+      </p>
+    {% endif %}
   </div>
 </section>

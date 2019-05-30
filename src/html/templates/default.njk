@@ -102,6 +102,7 @@
     <!-- End of code snippet for Google Fonts -->
 
     <!-- Styles -->
+    {% block extraStyleTags %}{% endblock %}
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
 
@@ -171,5 +172,6 @@
       gtag('js', new Date());
       gtag('config', 'UA-87037918-2');
     </script>
+    {% block extraScriptTags %}{% endblock %}
   </body>
 </html>
