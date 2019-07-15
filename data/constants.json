@@ -1,5 +1,5 @@
 {
-  "version": "live",
+  "version": "videos",
   "lang": "en",
   "tickets": {
     "url": "https://www.eventbrite.com/e/vue-day-2019-tickets-59162874751",
@@ -16,7 +16,8 @@
       "handle": "VueDay"
     },
     "youtube": {
-      "url": "https://www.youtube.com/c/AlicanteFrontend"
+      "url": "https://www.youtube.com/c/AlicanteFrontend",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLovB_ctuPuc5wiToTn98vxvN1_nhWSNUO"
     },
     "linkedin": {
       "url": "https://www.linkedin.com/groups/8736842/"
