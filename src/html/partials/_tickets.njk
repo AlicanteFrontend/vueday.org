@@ -44,5 +44,21 @@
         If you couldn't make it to the Vue Day, don't worry. Watch the event online <span aria-hidden="true">🎉</span>
       </p>
     {% endif %}
+
+    {% if version == 'videos' %}
+      <p>
+        <a
+          class="btn btn--large btn--white"
+          href="{{social.youtube.playlistUrl}}"
+          target="_blank"
+          rel="noopener"
+        >
+          <span aria-hidden="true">📺</span> Watch videos
+        </a>
+      </p>
+      <p class="m-0">
+        If you couldn't make it to the Vue Day, don't worry. Watch all videos in our YouTube channel <span aria-hidden="true">🎉</span>
+      </p>
+    {% endif %}
   </div>
 </section>
