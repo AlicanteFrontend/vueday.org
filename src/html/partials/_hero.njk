@@ -1,6 +1,26 @@
 <section id="intro" class="hero pt-header-height bb">
   <div class="container hero__inner">
     <div class="hero__box">
+      {% if version == 'videos' %}
+
+      <p>
+        The 2nd edition of <strong class="nowrap">Vue Day</strong> was a success! <a href="https://www.youtube.com/watch?v=Pkr29HTTSi8&list=PLovB_ctuPuc5wiToTn98vxvN1_nhWSNUO&index=2&t=0s" target="_blank">Watch the amazing aftermovie</a> <span aria-hidden="true">😁</span>
+      </p>
+      <p>
+        See you in 2020? Who knows!
+      </p>
+      <p>
+        Follow us at
+        <a class="link-highlight" href="{{ social.twitter.url }}" target="_blank" rel="noopener"
+          ><strong>@{{ social.twitter.handle }}</strong></a
+        >
+        to keep up with the latest news (if any). If you have any questions, <a class="link-highlight" href="mailto:{{ social.email }}" target="_blank" rel="noopener"
+          ><span class="nowrap">let's talk <span aria-hidden="true">✉️</span></span></a
+        >
+      </p>
+
+      {% else %}
+
       <p>
         The 2nd edition of <strong class="nowrap">Vue Day</strong> is here: a full day to learn
         about your favorite framework from local, national and international speakers.
@@ -9,7 +29,6 @@
         See you on <strong>Friday May 31</strong> at the Panoramis Cinema, in the beautiful
         <strong>Port of Alicante</strong>.
       </p>
-
       <p>
         Follow us at
         <a class="link-highlight" href="{{ social.twitter.url }}" target="_blank" rel="noopener"
@@ -21,6 +40,9 @@
           ><span class="nowrap">let's talk <span aria-hidden="true">✉️</span></span></a
         >
       </p>
+
+      {% endif %}
+
       <p class="hero__alicantefront">
         by
         <a href="{{ alicanteFrontend.url }}" target="_blank" rel="noopener"
