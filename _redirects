@@ -9,5 +9,4 @@ https://vueday.org/live http://vueday-live.surge.sh 301!
 https://vueday.org/live.html http://vueday-live.surge.sh 301!
 
 https://vueday.netlify.com/* https://vueday.org/:splat 301!
-https://vueday.netlify.com/* https://vueday.org/:splat 301!
 http://vueday.netlify.com/* https://vueday.org/:splat 301!
